@@ -24,43 +24,52 @@
 - Animações não devem disputar atenção com códigos longos nem impedir avanço manual.
 
 ## Código atual conferido
-A apresentação possui oito slides; o deck é composto por HTML, CSS e JS puro com Tailwind via CDN e Google Fonts.
+A apresentação possui 35 slides em HTML, CSS e JS puro. Tailwind e Google Fonts usam internet; SQLite é distribuído localmente. Não há framework, backend ou instalação de pacotes necessária para executar o deck.
 
 ```text
 index.html                           # Shell e dependências
 css/theme.css                        # Paleta e estilos/ratio
 js/app.js                            # Navegação e fullscreen
-js/slides.js                         # HTML dos slides 1 a 8
+js/slides.js                         # Conteúdo, falas e montagem dos 35 slides
 js/animations.js                     # Efeito typewriter
 js/visuals.js                        # Gráficos SVG + indicadores
-js/sql-lab.js                        # sql.js + SQLite em memória
+js/activities.js                     # Prompts, cópia e verificações de aprendizagem
+js/sql-lab.js                        # Editor, exemplos, resultados e estados da interface
+js/sql-engine.js                     # SQLite em Worker, cancelamento e timeouts
 js/data.js                           # Array 475 registros derivados
-apresentacao_arquivo_unico.html      # Variante empacotada do deck
+scripts/build.py                     # Dados, versões de recursos e HTML único opcional
+scripts/export-roteiro.cjs           # Roteiro e prompts derivados dos módulos
+vendor/sql.js/                       # sql-wasm-inline.js e licença MIT
+apresentacao_arquivo_unico.html       # Exportação local opcional, ignorada pelo Git
 base_vendas_analise_com_ia.csv      # Base canônica na raiz
-base_vendas_analise_com_ia.xlsx     # Planilha para alunos na raiz
-data/                                # Cópias legadas, ainda presentes
+base_vendas_analise_com_ia.xlsx      # Apoio original preservado, com precisão diferente
 ```
 
-### Slides atuais
-1. Frase central: analista faz boas perguntas.
-2. Apresentação da equipe e objetivos.
-3. O que são dados? Pintura, Bíblia, memes; typewriter.
-4. Dados estruturados, não estruturados e semiestruturados.
-5. Quatro modelos de análise.
-6. Analogia cotidiana para descritiva, diagnóstica, preditiva, prescritiva (não confundir analogia com inferência estatística).
-7. Exploração de vendas por categoria, indicadores e gráfico SVG.
-8. Editor `SELECT` com SQLite no browser e gráfico SVG (bug de WASM relatado).
+### Organização dos slides
+- 1–5: abertura do caso, dados e informação.
+- 6–8: modelos de análise, verificação e analogia.
+- 9–12: problema, perguntas, indicadores e verificação.
+- 13–14: base e laboratório de exploração.
+- 15–19: ferramentas e prática guiada NotebookLM → Planilhas.
+- 20–29: SQL progressivo, verificação e laboratório.
+- 30–32: leitura crítica de gráficos e critérios de avaliação.
+- 33: investigação autônoma em duplas.
+- 34–35: conferência, conclusão e próxima investigação.
 
-### Lacunas de narrativa
-- Precisa haver, **antes do laboratório SQL**, orientação explícita de:
-  problema → boa pergunta → indicador → origem dos dados;
-  SQL → tabela → SELECT → FROM → WHERE → GROUP BY → SUM → ORDER BY.
-- Adicionar telas ou revelações incrementais somente se caber nas três horas.
-- Respeitar a linguagem conversacional do apresentador; não sobrecarregar o slide com parágrafos.
+`js/slides.js` monta `window.DECK_SLIDES` e `window.LESSON_NOTES`; `js/app.js` injeta os slides e controla a navegação. Preserve IDs únicos e a correspondência entre slides e falas. O botão Roteiro mostra as notas na própria tela projetada; não é uma segunda tela privada.
+
+### Execução SQL
+- `CourseSqlEngine.prepare(rows)`, `execute(query)` e `reset()` são a interface entre o laboratório e o Worker.
+- O Worker cria a tabela a partir dos 475 registros de `SALES_DATA`, ativa `PRAGMA query_only` e executa SQLite em memória.
+- Preparação: até 15 segundos. Consulta: até 8 segundos. Timeout/reset encerra o Worker, rejeita promessas pendentes e libera a URL Blob; uma nova preparação permite retry.
+- O modular usa `importScripts()` com URL absoluta do vendor local. O build do HTML único guarda o vendor em `script type="text/plain" id="sql-vendor-source"` para compor o Worker, sem executar a biblioteca no thread principal.
+- `js/sql-lab.js` invalida respostas obsoletas e cancela a execução ao editar ou iniciar outra consulta. Preserve essa proteção de concorrência.
 
 ## Regras de engenharia
 - No curto prazo, manter HTML/CSS/JS puro; separar conteúdo de renderização.
-- Não alterar `apresentacao_arquivo_unico.html` manualmente se puder ser gerado a partir do modular; fornecer script de empacotamento reproduzível.
-- Evitar estado ou dependência duplicada. Se algum arquivo derivado conflitar com a planilha raiz, regenerá-lo de fonte única.
+- Não editar dados, roteiro ou HTML único derivados manualmente; use os scripts existentes. O CSV é a referência numérica; o XLSX original não coincide centavo a centavo.
+- Manter a fonte editável nos módulos, a formatação de `.prettierrc.json` e a biblioteca do fornecedor intacta. Não adicionar `node_modules` ao repositório.
 - Testar navegação com teclado e pointer, acessibilidade de estados, legibilidade em 1280×720 e 1920×1080.
+- Setas, PageUp/PageDown e Home/End navegam; F alterna tela cheia; N abre roteiro. No editor e seletores, preserve o teclado nativo; Ctrl+Enter executa SQL.
 - Não usar bibliotecas só pelo efeito visual: preferir gráficos SVG simples existentes.
+- Testes e comandos de manutenção disponíveis estão em `PLANO_DE_TRABALHO.md`; não há suíte `npm test` no projeto.

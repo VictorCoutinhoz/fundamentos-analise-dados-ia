@@ -32,7 +32,7 @@ scripts/export-roteiro.cjs   Exportação das falas e prompts
 vendor/sql.js/              Mecanismo SQL e licença MIT
 ```
 
-As instruções de continuidade ficam em `AGENTS.md` e `.agents/`. A pasta não possui dependências Node para executar a apresentação.
+As instruções para ferramentas de IA ficam em [AGENTS.md](AGENTS.md) e [.agents/](.agents/skills/fundamentos-dados-ia/SKILL.md). Para colaborar, comece pelo [guia de manutenção](docs/README.md), que distingue o estado atual dos planos históricos. A pasta não possui dependências Node para executar a apresentação.
 
 O código editável segue a configuração de formatação em `.prettierrc.json`. `.prettierignore` preserva a biblioteca em `vendor/`, os dados gerados e o HTML exportado. O arquivo `vendor/sql.js/sql-wasm-inline.js` é uma distribuição minificada do fornecedor; para manutenção da aplicação, edite os arquivos próprios em `js/`. O HTML dos slides usa blocos multilinha para facilitar a leitura.
 

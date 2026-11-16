@@ -1,15 +1,17 @@
 # Base de dados e laboratório SQL
 
 ## Arquivos canônicos
-- `base_vendas_analise_com_ia.csv` na raiz (CSV UTF-8 com BOM e separador `;`).
-- `base_vendas_analise_com_ia.xlsx` na raiz (planilha equivalente, inclui conteúdo didático).
+- `base_vendas_analise_com_ia.csv` na raiz: referência numérica, UTF-8 com BOM, separador `;` e ponto decimal.
+- `base_vendas_analise_com_ia.xlsx` na raiz: apoio original preservado, inclui conteúdo didático e fórmulas com precisão diferente.
 - Ambas são **fictícias** e adequadas à divulgação ao público.
-- `data/` e `js/data.js` ainda carregam cópias da mesma fonte; documentar e automatizar atualização para não haver divergência.
+- `scripts/build.py` gera `js/data.js` exclusivamente do CSV; não editar o JS manualmente. Não há pasta `data/` no estado atual.
+- O CSV soma **R$ 52.841,96** de receita; o XLSX original, **R$ 52.841,89**. Usar o CSV nas comparações entre ferramentas; não alterar as fontes para eliminar essa diferença.
 
 ## Perfil do dataset confirmado
 - 475 linhas/transações de vendas, 16 colunas.
 - Período: maio a outubro de 2026, seis meses.
 - Distribuição de registros por mês: 2026-05 (65), 2026-06 (75), 2026-07 (88), 2026-08 (94), 2026-09 (82), 2026-10 (71).
+- 909 unidades; receita de junho: R$ 7.022,65.
 - Sem dados reais de estudantes, pacientes ou clientes.
 
 ## Colunas originais (nome exato da planilha)
@@ -85,31 +87,25 @@ ORDER BY receita_total DESC;
 
 ## Verificações obrigatórias
 - `SELECT COUNT(*) AS registros FROM vendas;` deve retornar 475.
-- Agregados por mês devem refletir exatamente os números no CSV, considerando arredondamentos da planilha.
+- Agregados por mês devem refletir os valores registrados por linha no CSV. Recalcular preço × quantidade × desconto com outra regra de arredondamento pode mudar centavos.
 - Não alterar preços ou quantidades arbitrariamente para obter gráficos visualmente interessantes.
 - Exigir consulta tabular antes do gráfico para permitir auditoria.
 - Não confundir **pedidos/registros** com **unidades vendidas**: `COUNT(*)` vs `SUM(quantidade)`.
 - Não confundir receita após descontos com faturamento bruto.
 
-## Erro atual e investigação
-Usuário observou `both async and sync fetching of the wasm failed` ao executar `SELECT`.
+## Execução e representação atuais
+- `js/sql-engine.js` carrega `vendor/sql.js/sql-wasm-inline.js` dentro de Worker. O WASM está incorporado no JS; não há fetch de `.wasm` separado nem CDN de SQLite.
+- O laboratório aceita uma consulta iniciada por `SELECT` de cada vez, e a base usa `PRAGMA query_only`. Não remover essas proteções.
+- A preparação tem limite de 15 segundos e a consulta, 8 segundos. Timeout/reset encerra o Worker e permite preparar novamente. Editar a consulta invalida o resultado anterior e cancela execução pendente.
+- Tabela SQL e gráfico mostram as mesmas primeiras 20 linhas, na ordem da consulta, com aviso quando houver mais. O laboratório de exploração agrega toda a seleção e mostra uma amostra de oito registros.
+- Categoria e indicador são selecionáveis. Categorias podem ser texto ou números; dois agregados numa linha não devem ser tratados automaticamente como categoria e indicador.
+- **Reais** e **Número** formatam valores. **Taxa em fração** exibe uma taxa já calculada no SELECT: 0,25 → 25%. **Participação** calcula valor ÷ soma de todas as linhas retornadas, antes do limite visual, e adiciona coluna à tabela. Não calcular participação para negativos ou total zero.
+- Conferir a unidade sugerida pelo alias. Preservar NULL como ausência de valor, sinais negativos, precisão útil para frações pequenas e rótulos legíveis para até 20 categorias.
 
-Arquivos relevantes:
-- `index.html`: `<script defer src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.16.0/sql-wasm.js"></script>`.
-- `js/sql-lab.js`: `const SQL_CDN='https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.16.0/';` e `initSqlJs({locateFile:file=>SQL_CDN+file})`.
-
-Causas possíveis, a confirmar em console/Network (sem deduzir uma única causa): arquivo `.wasm` inacessível, URL/versão incorreta, bloqueio da CDN, CORS, política `file://` ou incompatibilidade de loader.
-
-Alternativas:
-- Abrir o site por `http://localhost:5500` (ou outra porta local), via servidor estático.
-- Hospedar `sql-wasm.js` e `sql-wasm.wasm` na mesma distribuição e ajustar `locateFile`.
-- Migrar para `sql-wasm-inline.js` (WASM embutido) e dispensar `locateFile` se compatível com a versão escolhida.
-- Mensagem de falha clara e opção de tentar novamente. O `readyPromise` atual pode reter uma promessa rejeitada: permitir retry se a origem falhou temporariamente.
-
-Testes em navegador real, com DevTools e rede:
-1. Carregar apresentação pelo servidor local.
-2. Verificar console e requisições WASM (200, Content-Type e origem válida).
-3. Verificar `COUNT(*) = 475`.
-4. Testar cada exemplo; conferir se gráfico usa a coluna numérica correta.
-5. Testar erro de sintaxe, retorno zero linhas, troca de slide e uso das setas enquanto digita.
-6. Simular falha de CDN e garantir mensagem compreensível.
+## Verificação após mudanças em SQL/dados/gráficos
+1. Servir por `http://localhost` e conferir console, carregamento local e ausência de dependência SQLite externa.
+2. Executar contagem, total e agregado mensal; comparar com cálculo independente do CSV: 475 registros, 909 unidades, R$ 52.841,96 e junho R$ 7.022,65.
+3. Conferir exemplos, troca de indicador/unidade, NULL, zero, negativos, resultado vazio e mais de 20 linhas.
+4. Testar erro de sintaxe, foco/setas no editor e edição durante execução; consulta antiga não deve reaparecer como resultado atual.
+5. Se alterar engine/carregamento, simular falha e retry, e confirmar timeout de consulta mantendo navegação. Executar consulta pesada somente em navegador isolado com watchdog, nunca na sessão da aula.
+6. Se compartilhar HTML único, regenerá-lo e testar sua execução; ele incorpora vendor como texto para o Worker. A versão exportada já foi exercitada por HTTP e como arquivo local, mas mudanças futuras precisam de nova verificação.

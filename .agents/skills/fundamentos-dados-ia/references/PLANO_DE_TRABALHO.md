@@ -1,50 +1,59 @@
-# Plano de continuidade e backlog para Codex
+# Manutenção e verificação do projeto
 
-## P0 — corrigir laboratório SQL (primeira tarefa)
-- Reproduzir o erro WASM em navegador de teste (não basta dizer “funciona no Node”).
-- Testar ambiente servido via HTTP local.
-- Reparar loader `sql.js` e seu asset WASM; considerar build inline para simplificar distribuição.
-- Garantir feedback de status e botão de tentativa novamente.
-- Garantir execução determinística sem conexão com serviços de IA.
-- Verificar `SELECT COUNT(*) FROM vendas` = 475 e consultas de receita.
-**Critério de aceite:** laboratório executa pelo menos três SELECTs do curso, gera tabela e gráfico, e informa falhas sem travar a navegação.
+## Ponto de partida
+A apresentação atual tem 35 slides, explicação de SQL antes do laboratório, gráficos e verificações de aprendizagem. SQLite usa vendor local com WASM incorporado, executado em Worker com cancelamento, retry e limites de 15 segundos para preparação e 8 segundos por consulta. Esses recursos já existem; não tratá-los como backlog a implementar novamente.
 
-## P1 — corrigir a sequência didática SQL
-- Novo slide ou sequência antes do editor: “O que é SQL? Por que fazemos consultas?”
-- Mostrar tabela imaginária com linhas/colunas e consulta `SELECT produto, receita FROM vendas LIMIT 5;`.
-- Acrescentar pergunta natural → SQL com `WHERE` → tabela resultante.
-- Só depois: agregação `SUM`, agrupamento `GROUP BY`, gráfico.
-- Introduzir `SELECT` de forma progressiva; evitar excesso de sintaxe.
-**Critério de aceite:** um universitário sem programação entende o papel de SQL/SELECT antes de ver o editor.
+O repositório compartilhado é `https://github.com/jrguedes7/fundamentos-analise-dados-ia`, com branch principal `main`. Antes de publicar, conferir remoto, branch, diff e identidade Git. Preservar as contribuições dos demais integrantes e não incluir credenciais, dados de empregador, caches ou dependências instaladas.
 
-## P2 — preencher lacunas de pensamento analítico
-- Complementar slides: identificação do problema, boas perguntas e definição de indicadores.
-- Provocar a turma: “O que querem descobrir?”, “Qual período?”, “Qual indicador?”, “A base tem essa informação?”.
-- Exibir pergunta vaga e sua versão precisa.
-- Conectar exemplo diretamente à Loja Horizonte.
-- Preservar os quatro modelos de análise e a analogia original com suas ressalvas.
-**Critério de aceite:** o aluno encontra indicação do que é problema, pergunta e indicador no deck antes da prática.
+## Fluxo de uma alteração
+1. Ler `AGENTS.md`, a skill e as referências relevantes; inspecionar `git status` e o módulo responsável pelo comportamento solicitado.
+2. Delimitar os arquivos e fazer uma mudança pequena. Preservar didática, fontes fictícias e identidade visual.
+3. Regenerar os derivados afetados e verificar o resultado. Não editar `js/data.js`, roteiro/prompts exportados ou HTML único manualmente.
+4. Revisar o diff e relatar o que mudou, o que foi testado de fato e o que continua sem verificação.
 
-## P3 — dados e gráficos
-- Introduzir uma fonte única: CSV e XLSX na raiz do repositório.
-- Automatizar a conversão do CSV com BOM e `;` para `js/data.js` sem editar registros manualmente.
-- Escrever teste de consistência de linhas (475) e agregados mensais.
-- Exibir unidades e rótulos completos em gráficos; corrigir seleção de colunas quando consultas retornarem múltiplos números.
-- Testar estados vazios e valores não positivos.
-**Critério de aceite:** os indicadores no deck, no SQLite e nas planilhas convergem, sem divergência de dados.
+## Comandos existentes
+Para atualizar dados e versões dos recursos locais:
 
-## P4 — aprimoramento visual e manutenção
-- Preservar paleta e tipografia.
-- Garantir leitura em projetor, 16:9, controles acessíveis, movimento discreto e `prefers-reduced-motion`.
-- Fornecer script de build ou documentação para regenerar `apresentacao_arquivo_unico.html`.
-- Acrescentar testes automatizados para SQL/agregações e smoke tests de navegador se o ambiente permitir.
-- Incluir instruções claras de inicialização via servidor local (Node ou Python).
-**Critério de aceite:** qualquer apresentador da equipe abre, navega e demonstra sem conhecimento da implementação.
+```powershell
+python scripts/build.py
+python scripts/build.py --check
+```
 
-## P5 — integrações opcionais (não começar sem decisão do usuário)
-- Possível exportação de gráficos, upload de outras planilhas fictícias, questionário dos alunos.
-- Integração com API de IA somente se houver consentimento, chave fornecida pelo usuário e discussão sobre custos e privacidade.
-- Não forçar Power BI, frameworks web, serviços cloud ou modo offline.
+O build usa o CSV da raiz, exige 475 IDs distintos e gera `js/data.js`. O check compara os derivados; não substitui validação dos indicadores no navegador.
 
-## Estratégia de implementação
-Uma tarefa por vez: compreender → alterar → testar → apresentar diff → aguardar próxima etapa. Antes de grandes mudanças, registrar arquivos afetados e critérios de aceite.
+Depois de alterar slides, falas ou prompts em `js/slides.js`/`js/activities.js`, atualizar os materiais:
+
+```powershell
+node scripts/export-roteiro.cjs
+```
+
+Para exportar e conferir o HTML único opcional:
+
+```powershell
+python scripts/build.py --single-file
+python scripts/build.py --check --single-file
+```
+
+`apresentacao_arquivo_unico.html` é ignorado pelo Git. O check com `--single-file` só faz sentido depois de gerar essa exportação. Ele incorpora estilos, módulos e vendor SQL; Tailwind e fontes continuam externos.
+
+Para apresentar e verificar interações:
+
+```powershell
+python -m http.server 5500 --bind 127.0.0.1
+```
+
+Abrir `http://localhost:5500`. Para um módulo JS alterado, `node --check js/nome-do-arquivo.js` verifica sintaxe. Node é usado pelos scripts de apoio; não é necessário para executar a apresentação no navegador.
+
+## Verificação proporcional à mudança
+- **Conteúdo/falas/prompts:** conferir a sequência, correspondência entre slides e notas, títulos, tempo de três horas e materiais exportados.
+- **Dados/SQL/gráficos:** comparar cálculos independentes do CSV com SQLite; valores de referência e casos de borda estão em `DADOS_E_SQL.md`.
+- **Interações/layout:** testar em navegador real navegação, typewriter/reduced motion, quizzes, cópia, foco/teclado do editor e seletores, gráficos e roteiro. Conferir 1280×720, 1920×1080 e celular quando afetado.
+- **Engine/carregamento:** testar falha/retry, cancelamento de resultado antigo, timeout sem bloquear navegação e nova preparação. Preservar execução fora do thread principal.
+- **Exportação:** se for compartilhada, testar a cópia regenerada; não supor que um teste do modular valida automaticamente o HTML único.
+
+## Evidência disponível e limites
+Não há `tests/`, `package.json`, `npm test` ou dependências de teste distribuídas. A auditoria anterior usou scripts e capturas na pasta temporária do sistema, fora do repositório. Não depender do caminho temporário de outro integrante nem anunciar uma suíte inexistente.
+
+A revisão anterior exercitou Edge real, dados/SQL, gráficos, navegação, responsividade, falhas/recuperação, concorrência e HTML único por HTTP e `file://`. Isso é evidência daquela versão; depois de uma mudança, executar os checks pertinentes novamente. O ensaio no projetor e o uso das contas Google da turma exigem verificação no ambiente da aula.
+
+Novas integrações, frameworks, backend, autenticação ou APIs pagas dependem de pedido explícito; não fazem parte da manutenção cotidiana.

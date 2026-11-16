@@ -19,16 +19,18 @@
 - Cuidado para não ensinar “prompt bom = resposta certa”.
 
 ## Fluxo central
-1. Fundamentos: o que é dado, informação, dado estruturado/não estruturado/semiestruturado.
-2. Tipos de análise: descritiva (“o que aconteceu?”), diagnóstica (“por que aconteceu?”), preditiva (“o que pode acontecer?”), prescritiva (“o que devemos fazer?”).
-3. Identificação de um problema relevante.
-4. Formulação de perguntas úteis, específicas, respondíveis e verificáveis.
+1. Abrir o caso da Loja Horizonte: a gerência percebe mudanças nas vendas e precisa decidir o que investigar primeiro.
+2. Apresentar os fundamentos como apoios à investigação: dado, informação e dados estruturados/não estruturados/semiestruturados.
+3. Usar os tipos de análise como mapa de perguntas: descritiva (“o que aconteceu?”), diagnóstica (“o que pode explicar?”), preditiva (“o que pode acontecer?”), prescritiva (“o que devemos fazer, sob quais restrições?”).
+4. Retomar o problema e formular perguntas úteis, específicas, respondíveis e verificáveis.
 5. Seleção dos indicadores e dos campos necessários.
 6. Apresentação e exploração da base de vendas.
 7. Introdução a ferramentas de IA e planilhas.
 8. Demonstração didática de SQL/SELECT e execução real sobre dados.
 9. Gráficos, interpretação e confronto com dados originais.
-10. Comunicação de conclusões e suas limitações.
+10. Comunicação de conclusões, suas limitações e próxima investigação, retomando o caso inicial.
+
+Os quatro tipos não são uma sequência obrigatória de quatro análises. Cada conceito deve responder a uma necessidade que a investigação criou. Antes da ferramenta, decidir o que queremos descobrir.
 
 ## Conceitos a explicitar com exemplos
 - Dado: registro de um fato, observação ou medida. Informação: interpretação contextualizada.
@@ -40,14 +42,25 @@
 - Predição exige método e quantificação da incerteza; evitar vender extrapolação rasa como certeza.
 
 ## Proposta de dinâmica para três horas (flexível)
-- 15 min: apresentação, dados vs informação.
-- 25 min: tipos de análise e analogias.
-- 25 min: problema, perguntas e indicadores.
-- 20 min: explorar base/planilha.
-- 25 min: aplicações de IA, introdução a SQL e SELECT.
-- 55 min: atividade prática, consultas, gráficos e interpretação.
-- 15 min: conferência, dúvidas e conclusões.
+- 15 min (slides 1–5): abertura do caso, dados e informação.
+- 20 min (6–8): modelos de análise, verificação e analogia.
+- 20 min (9–12): problema, perguntas, indicadores e verificação.
+- 15 min (13–14): base e exploração.
+- 30 min (15–19): ferramentas e prática guiada NotebookLM → Planilhas.
+- 30 min (20–29): SQL progressivo, verificação e laboratório.
+- 10 min (30–32): leitura crítica de gráficos e critérios de avaliação.
+- 30 min (33): investigação autônoma em duplas.
+- 10 min (34–35): defesa da conclusão e próxima investigação.
 - Total: 180 min. Adaptar ao nível da turma, sem sacrificar a parte prática.
+
+O [roteiro da aula](../../../../ROTEIRO_DA_AULA.md) contém a distribuição e as falas exportadas dos módulos. Ensaiar o tempo real das ferramentas nas contas da turma.
+
+## Apoio e avaliação
+- **Eu faço:** o apresentador demonstra como transformar uma pergunta em análise.
+- **Nós fazemos:** a turma usa o mesmo CSV e confere a receita mensal.
+- **Vocês fazem:** as duplas escolhem outra pergunta e defendem sua própria conclusão.
+- Quatro verificações, após modelos, indicadores, SELECT e escalas: 30 segundos individuais e um minuto em dupla, com feedback explicado.
+- Avaliar pergunta, indicador, visualização e interpretação. Exigir um valor conferido, uma limitação e uma próxima pergunta; aparência do gráfico não comprova o raciocínio.
 
 ## Atividade prática
 - Entregar planilha fictícia aos participantes.
@@ -59,9 +72,9 @@
 
 ## Ferramentas do curso (papéis distintos)
 - **Google Sheets:** fonte visível para filtros, tabelas, fórmulas e validação de resultados.
-- **NotebookLM / Gemini Notebook (ou ferramenta similar, após confirmar disponibilidade):** auxílio para questionar fontes, interpretar informação, formular perguntas e, se disponível, gerar visualizações. Não prometer execução SQL ou gráficos exatos sem testar a conta.
-- **Laboratório SQL da apresentação:** emulação didática de consultas reais com SQLite local no navegador, não ferramenta de IA.
+- **NotebookLM / Gemini Notebook (ou ferramenta similar, após confirmar disponibilidade):** auxílio para questionar fontes, interpretar informação, formular perguntas, sugerir consultas e discutir limitações. Conferir qualquer número na fonte; não afirmar que a ferramenta executou SQL sem isso ter ocorrido.
+- **Laboratório SQL da apresentação:** consultas reais executadas em SQLite local no navegador, isolado em Worker; não é uma ferramenta de IA.
 - **DataGrip/PostgreSQL:** fora do escopo básico; só demonstrar se houver justificativa e tempo.
 
 ## Limite da atividade
-A apresentação web atual não integra API de IA. Se alguém pedir que “a IA execute o SELECT”, esclarecer: IA pode sugerir a consulta, mas a execução real requer mecanismo SQL; o gráfico do laboratório é feito em SVG com dados reais da consulta.
+A apresentação web atual não integra API de IA. Se alguém pedir que “a IA execute o SELECT”, esclarecer: IA pode sugerir a consulta, mas a execução real requer mecanismo SQL; o gráfico do laboratório é feito em SVG com os valores retornados pela consulta sobre a base fictícia.
