@@ -1,0 +1,476 @@
+﻿ID_pedido;Data;Mês;Canal;Região;Categoria;Produto;Quantidade;Preço_unitário_R$;Desconto_%;Custo_unitário_R$;Faturamento_bruto_R$;Receita_após_desconto_R$;Custo_produtos_R$;Lucro_bruto_simplificado_R$;Margem_bruta_%
+PED-202605-0057;2026-05-01;2026-05;Loja física;Centro;Informática;Hub USB;3;84.9;0;49.0;254.7;254.7;147.0;107.7;0.42285
+PED-202605-0001;2026-05-03;2026-05;WhatsApp;Zona Norte;Papelaria;Bloco de notas;1;12.5;0.05;6.4;12.5;11.88;6.4;5.48;0.461279
+PED-202605-0032;2026-05-03;2026-05;Loja física;Zona Sul;Acessórios;Cabo USB-C;1;29.9;0.05;15.4;29.9;28.4;15.4;13.0;0.457746
+PED-202605-0052;2026-05-03;2026-05;Loja física;Zona Sul;Organização;Suporte de notebook;2;99.9;0;57.5;199.8;199.8;115.0;84.8;0.424424
+PED-202605-0058;2026-05-03;2026-05;Online;Centro;Papelaria;Caderno universitário;2;22.9;0;12.1;45.8;45.8;24.2;21.6;0.471616
+PED-202605-0016;2026-05-04;2026-05;Loja física;Centro;Papelaria;Caderno universitário;1;22.9;0.05;12.1;22.9;21.75;12.1;9.65;0.443678
+PED-202605-0030;2026-05-04;2026-05;Loja física;Zona Norte;Papelaria;Caneta (kit);3;16.9;0;8.5;50.7;50.7;25.5;25.2;0.497041
+PED-202605-0031;2026-05-04;2026-05;Loja física;Zona Sul;Acessórios;Mouse sem fio;1;69.9;0.05;43.5;69.9;66.41;43.5;22.91;0.344978
+PED-202605-0047;2026-05-04;2026-05;Loja física;Zona Norte;Informática;Teclado;4;89.9;0;55.0;359.6;359.6;220.0;139.6;0.388209
+PED-202605-0054;2026-05-04;2026-05;Loja física;Centro;Papelaria;Caneta (kit);3;16.9;0.1;8.5;50.7;45.63;25.5;20.13;0.441157
+PED-202605-0008;2026-05-05;2026-05;Online;Centro;Acessórios;Headset básico;1;119.9;0;76.0;119.9;119.9;76.0;43.9;0.366138
+PED-202605-0046;2026-05-05;2026-05;Loja física;Centro;Organização;Organizador de mesa;4;44.9;0;22.5;179.6;179.6;90.0;89.6;0.498886
+PED-202605-0015;2026-05-06;2026-05;Loja física;Zona Sul;Informática;Teclado;1;89.9;0;55.0;89.9;89.9;55.0;34.9;0.388209
+PED-202605-0022;2026-05-06;2026-05;Loja física;Zona Norte;Informática;Teclado;1;89.9;0;55.0;89.9;89.9;55.0;34.9;0.388209
+PED-202605-0013;2026-05-07;2026-05;Online;Centro;Informática;Hub USB;1;84.9;0;49.0;84.9;84.9;49.0;35.9;0.42285
+PED-202605-0002;2026-05-08;2026-05;Loja física;Zona Sul;Acessórios;Cabo USB-C;3;29.9;0.05;15.4;89.7;85.22;46.2;39.02;0.457874
+PED-202605-0029;2026-05-08;2026-05;Loja física;Centro;Acessórios;Cabo USB-C;2;29.9;0;15.4;59.8;59.8;30.8;29.0;0.48495
+PED-202605-0036;2026-05-10;2026-05;Loja física;Centro;Informática;Teclado;3;89.9;0;55.0;269.7;269.7;165.0;104.7;0.388209
+PED-202605-0053;2026-05-10;2026-05;Loja física;Zona Sul;Informática;Hub USB;1;84.9;0;49.0;84.9;84.9;49.0;35.9;0.42285
+PED-202605-0061;2026-05-10;2026-05;WhatsApp;Centro;Acessórios;Headset básico;1;119.9;0;76.0;119.9;119.9;76.0;43.9;0.366138
+PED-202605-0041;2026-05-11;2026-05;WhatsApp;Centro;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202605-0044;2026-05-11;2026-05;Loja física;Centro;Organização;Pasta catálogo;2;34.9;0;17.8;69.8;69.8;35.6;34.2;0.489971
+PED-202605-0023;2026-05-13;2026-05;Online;Centro;Papelaria;Caderno universitário;1;22.9;0;12.1;22.9;22.9;12.1;10.8;0.471616
+PED-202605-0025;2026-05-13;2026-05;Online;Zona Sul;Informática;Hub USB;3;84.9;0.1;49.0;254.7;229.23;147.0;82.23;0.358723
+PED-202605-0051;2026-05-13;2026-05;Loja física;Zona Sul;Papelaria;Caneta (kit);3;16.9;0;8.5;50.7;50.7;25.5;25.2;0.497041
+PED-202605-0006;2026-05-14;2026-05;Loja física;Centro;Informática;Hub USB;1;84.9;0;49.0;84.9;84.9;49.0;35.9;0.42285
+PED-202605-0035;2026-05-14;2026-05;WhatsApp;Zona Norte;Organização;Organizador de mesa;2;44.9;0;22.5;89.8;89.8;45.0;44.8;0.498886
+PED-202605-0059;2026-05-14;2026-05;WhatsApp;Centro;Papelaria;Bloco de notas;1;12.5;0;6.4;12.5;12.5;6.4;6.1;0.488
+PED-202605-0064;2026-05-14;2026-05;Loja física;Centro;Acessórios;Mouse sem fio;1;69.9;0;43.5;69.9;69.9;43.5;26.4;0.377682
+PED-202605-0012;2026-05-15;2026-05;Loja física;Zona Norte;Acessórios;Headset básico;1;119.9;0.05;76.0;119.9;113.91;76.0;37.91;0.332807
+PED-202605-0027;2026-05-15;2026-05;Loja física;Zona Sul;Acessórios;Headset básico;4;119.9;0.05;76.0;479.6;455.62;304.0;151.62;0.332777
+PED-202605-0063;2026-05-15;2026-05;Loja física;Centro;Informática;Webcam;2;179.9;0;121.0;359.8;359.8;242.0;117.8;0.327404
+PED-202605-0011;2026-05-16;2026-05;Online;Zona Sul;Organização;Suporte de notebook;3;99.9;0;57.5;299.7;299.7;172.5;127.2;0.424424
+PED-202605-0020;2026-05-16;2026-05;Online;Centro;Informática;Hub USB;1;84.9;0.15;49.0;84.9;72.17;49.0;23.17;0.321048
+PED-202605-0026;2026-05-16;2026-05;Online;Zona Norte;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202605-0007;2026-05-17;2026-05;Loja física;Zona Sul;Papelaria;Bloco de notas;3;12.5;0;6.4;37.5;37.5;19.2;18.3;0.488
+PED-202605-0009;2026-05-17;2026-05;Online;Zona Sul;Acessórios;Headset básico;1;119.9;0;76.0;119.9;119.9;76.0;43.9;0.366138
+PED-202605-0065;2026-05-17;2026-05;Online;Zona Sul;Papelaria;Caneta (kit);1;16.9;0;8.5;16.9;16.9;8.5;8.4;0.497041
+PED-202605-0003;2026-05-18;2026-05;Loja física;Centro;Acessórios;Cabo USB-C;1;29.9;0.1;15.4;29.9;26.91;15.4;11.51;0.427722
+PED-202605-0045;2026-05-18;2026-05;Online;Zona Norte;Acessórios;Headset básico;3;119.9;0.15;76.0;359.7;305.75;228.0;77.75;0.254293
+PED-202605-0004;2026-05-19;2026-05;WhatsApp;Zona Sul;Papelaria;Caneta (kit);2;16.9;0.05;8.5;33.8;32.11;17.0;15.11;0.47057
+PED-202605-0028;2026-05-19;2026-05;Loja física;Centro;Informática;Webcam;1;179.9;0;121.0;179.9;179.9;121.0;58.9;0.327404
+PED-202605-0039;2026-05-20;2026-05;Online;Zona Norte;Organização;Organizador de mesa;1;44.9;0.05;22.5;44.9;42.65;22.5;20.15;0.47245
+PED-202605-0055;2026-05-20;2026-05;Loja física;Zona Sul;Informática;Webcam;1;179.9;0;121.0;179.9;179.9;121.0;58.9;0.327404
+PED-202605-0056;2026-05-20;2026-05;Loja física;Zona Norte;Papelaria;Bloco de notas;2;12.5;0;6.4;25.0;25.0;12.8;12.2;0.488
+PED-202605-0060;2026-05-20;2026-05;Online;Zona Sul;Acessórios;Headset básico;2;119.9;0;76.0;239.8;239.8;152.0;87.8;0.366138
+PED-202605-0048;2026-05-21;2026-05;Online;Centro;Acessórios;Mouse sem fio;3;69.9;0.1;43.5;209.7;188.73;130.5;58.23;0.308536
+PED-202605-0024;2026-05-22;2026-05;Online;Centro;Papelaria;Caderno universitário;2;22.9;0;12.1;45.8;45.8;24.2;21.6;0.471616
+PED-202605-0038;2026-05-22;2026-05;Loja física;Zona Sul;Informática;Webcam;2;179.9;0.1;121.0;359.8;323.82;242.0;81.82;0.252671
+PED-202605-0021;2026-05-23;2026-05;Online;Zona Norte;Papelaria;Caneta (kit);2;16.9;0;8.5;33.8;33.8;17.0;16.8;0.497041
+PED-202605-0049;2026-05-23;2026-05;Online;Centro;Papelaria;Bloco de notas;1;12.5;0.05;6.4;12.5;11.88;6.4;5.48;0.461279
+PED-202605-0005;2026-05-24;2026-05;WhatsApp;Zona Sul;Papelaria;Caderno universitário;1;22.9;0.05;12.1;22.9;21.75;12.1;9.65;0.443678
+PED-202605-0040;2026-05-24;2026-05;Loja física;Zona Norte;Papelaria;Bloco de notas;3;12.5;0.05;6.4;37.5;35.62;19.2;16.42;0.460977
+PED-202605-0010;2026-05-25;2026-05;WhatsApp;Zona Sul;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202605-0034;2026-05-25;2026-05;Loja física;Zona Sul;Papelaria;Bloco de notas;4;12.5;0;6.4;50.0;50.0;25.6;24.4;0.488
+PED-202605-0050;2026-05-25;2026-05;WhatsApp;Centro;Acessórios;Mouse sem fio;2;69.9;0.1;43.5;139.8;125.82;87.0;38.82;0.308536
+PED-202605-0017;2026-05-26;2026-05;WhatsApp;Zona Sul;Informática;Webcam;3;179.9;0;121.0;539.7;539.7;363.0;176.7;0.327404
+PED-202605-0037;2026-05-26;2026-05;Loja física;Zona Sul;Informática;Teclado;2;89.9;0.05;55.0;179.8;170.81;110.0;60.81;0.35601
+PED-202605-0014;2026-05-27;2026-05;WhatsApp;Zona Norte;Organização;Organizador de mesa;2;44.9;0;22.5;89.8;89.8;45.0;44.8;0.498886
+PED-202605-0042;2026-05-27;2026-05;Loja física;Zona Norte;Papelaria;Caneta (kit);4;16.9;0;8.5;67.6;67.6;34.0;33.6;0.497041
+PED-202605-0043;2026-05-27;2026-05;Loja física;Centro;Papelaria;Caneta (kit);4;16.9;0.15;8.5;67.6;57.46;34.0;23.46;0.408284
+PED-202605-0019;2026-05-28;2026-05;Loja física;Zona Sul;Papelaria;Caneta (kit);4;16.9;0;8.5;67.6;67.6;34.0;33.6;0.497041
+PED-202605-0062;2026-05-28;2026-05;Loja física;Zona Norte;Acessórios;Mouse sem fio;3;69.9;0.05;43.5;209.7;199.21;130.5;68.71;0.344912
+PED-202605-0018;2026-05-30;2026-05;Loja física;Centro;Papelaria;Caderno universitário;4;22.9;0;12.1;91.6;91.6;48.4;43.2;0.471616
+PED-202605-0033;2026-05-30;2026-05;Loja física;Centro;Acessórios;Mouse sem fio;1;69.9;0;43.5;69.9;69.9;43.5;26.4;0.377682
+PED-202606-0036;2026-06-01;2026-06;Online;Centro;Organização;Organizador de mesa;2;44.9;0.1;22.5;89.8;80.82;45.0;35.82;0.443207
+PED-202606-0015;2026-06-03;2026-06;WhatsApp;Zona Sul;Papelaria;Bloco de notas;3;12.5;0.05;6.4;37.5;35.62;19.2;16.42;0.460977
+PED-202606-0027;2026-06-03;2026-06;WhatsApp;Zona Sul;Papelaria;Caderno universitário;3;22.9;0.05;12.1;68.7;65.27;36.3;28.97;0.443849
+PED-202606-0046;2026-06-04;2026-06;Online;Zona Norte;Papelaria;Caneta (kit);2;16.9;0.05;8.5;33.8;32.11;17.0;15.11;0.47057
+PED-202606-0062;2026-06-04;2026-06;WhatsApp;Zona Norte;Papelaria;Caderno universitário;2;22.9;0.1;12.1;45.8;41.22;24.2;17.02;0.412906
+PED-202606-0031;2026-06-05;2026-06;Online;Centro;Informática;Webcam;1;179.9;0.1;121.0;179.9;161.91;121.0;40.91;0.252671
+PED-202606-0050;2026-06-05;2026-06;Online;Zona Norte;Acessórios;Cabo USB-C;1;29.9;0.05;15.4;29.9;28.4;15.4;13.0;0.457746
+PED-202606-0072;2026-06-05;2026-06;Online;Zona Norte;Informática;Hub USB;2;84.9;0;49.0;169.8;169.8;98.0;71.8;0.42285
+PED-202606-0075;2026-06-05;2026-06;Loja física;Zona Sul;Acessórios;Headset básico;1;119.9;0.05;76.0;119.9;113.91;76.0;37.91;0.332807
+PED-202606-0047;2026-06-06;2026-06;Online;Zona Norte;Informática;Webcam;1;179.9;0;121.0;179.9;179.9;121.0;58.9;0.327404
+PED-202606-0063;2026-06-06;2026-06;WhatsApp;Zona Norte;Papelaria;Caneta (kit);3;16.9;0;8.5;50.7;50.7;25.5;25.2;0.497041
+PED-202606-0023;2026-06-07;2026-06;WhatsApp;Centro;Acessórios;Mouse sem fio;1;69.9;0;43.5;69.9;69.9;43.5;26.4;0.377682
+PED-202606-0035;2026-06-07;2026-06;Loja física;Centro;Organização;Organizador de mesa;1;44.9;0;22.5;44.9;44.9;22.5;22.4;0.498886
+PED-202606-0056;2026-06-07;2026-06;Loja física;Centro;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202606-0060;2026-06-07;2026-06;WhatsApp;Zona Norte;Informática;Teclado;2;89.9;0;55.0;179.8;179.8;110.0;69.8;0.388209
+PED-202606-0018;2026-06-08;2026-06;Online;Zona Norte;Informática;Hub USB;1;84.9;0;49.0;84.9;84.9;49.0;35.9;0.42285
+PED-202606-0019;2026-06-08;2026-06;Online;Zona Sul;Acessórios;Headset básico;1;119.9;0.05;76.0;119.9;113.91;76.0;37.91;0.332807
+PED-202606-0042;2026-06-08;2026-06;Loja física;Zona Norte;Papelaria;Bloco de notas;2;12.5;0.1;6.4;25.0;22.5;12.8;9.7;0.431111
+PED-202606-0045;2026-06-08;2026-06;Online;Centro;Organização;Organizador de mesa;2;44.9;0.1;22.5;89.8;80.82;45.0;35.82;0.443207
+PED-202606-0073;2026-06-08;2026-06;Loja física;Centro;Acessórios;Cabo USB-C;4;29.9;0;15.4;119.6;119.6;61.6;58.0;0.48495
+PED-202606-0007;2026-06-09;2026-06;Loja física;Zona Norte;Papelaria;Caneta (kit);2;16.9;0.05;8.5;33.8;32.11;17.0;15.11;0.47057
+PED-202606-0017;2026-06-09;2026-06;Online;Zona Sul;Papelaria;Caderno universitário;3;22.9;0;12.1;68.7;68.7;36.3;32.4;0.471616
+PED-202606-0068;2026-06-09;2026-06;WhatsApp;Centro;Acessórios;Headset básico;1;119.9;0.15;76.0;119.9;101.92;76.0;25.92;0.254317
+PED-202606-0053;2026-06-10;2026-06;WhatsApp;Zona Norte;Papelaria;Caderno universitário;4;22.9;0;12.1;91.6;91.6;48.4;43.2;0.471616
+PED-202606-0065;2026-06-10;2026-06;Online;Centro;Papelaria;Caderno universitário;2;22.9;0;12.1;45.8;45.8;24.2;21.6;0.471616
+PED-202606-0010;2026-06-11;2026-06;Loja física;Zona Sul;Acessórios;Mouse sem fio;1;69.9;0;43.5;69.9;69.9;43.5;26.4;0.377682
+PED-202606-0026;2026-06-11;2026-06;Online;Zona Sul;Papelaria;Bloco de notas;3;12.5;0.1;6.4;37.5;33.75;19.2;14.55;0.431111
+PED-202606-0033;2026-06-11;2026-06;Online;Zona Norte;Papelaria;Bloco de notas;3;12.5;0.15;6.4;37.5;31.88;19.2;12.68;0.397742
+PED-202606-0044;2026-06-11;2026-06;Online;Zona Norte;Papelaria;Caderno universitário;1;22.9;0;12.1;22.9;22.9;12.1;10.8;0.471616
+PED-202606-0011;2026-06-12;2026-06;Loja física;Zona Sul;Papelaria;Caneta (kit);2;16.9;0;8.5;33.8;33.8;17.0;16.8;0.497041
+PED-202606-0039;2026-06-12;2026-06;Online;Zona Sul;Acessórios;Cabo USB-C;2;29.9;0;15.4;59.8;59.8;30.8;29.0;0.48495
+PED-202606-0070;2026-06-12;2026-06;Loja física;Zona Sul;Papelaria;Caneta (kit);2;16.9;0;8.5;33.8;33.8;17.0;16.8;0.497041
+PED-202606-0002;2026-06-13;2026-06;Online;Centro;Papelaria;Caneta (kit);2;16.9;0;8.5;33.8;33.8;17.0;16.8;0.497041
+PED-202606-0032;2026-06-13;2026-06;Loja física;Centro;Acessórios;Headset básico;2;119.9;0;76.0;239.8;239.8;152.0;87.8;0.366138
+PED-202606-0041;2026-06-13;2026-06;Loja física;Zona Norte;Papelaria;Caderno universitário;3;22.9;0.1;12.1;68.7;61.83;36.3;25.53;0.412906
+PED-202606-0024;2026-06-14;2026-06;Loja física;Centro;Papelaria;Bloco de notas;1;12.5;0;6.4;12.5;12.5;6.4;6.1;0.488
+PED-202606-0054;2026-06-14;2026-06;Online;Centro;Organização;Organizador de mesa;3;44.9;0;22.5;134.7;134.7;67.5;67.2;0.498886
+PED-202606-0069;2026-06-14;2026-06;Loja física;Centro;Informática;Webcam;1;179.9;0.05;121.0;179.9;170.91;121.0;49.91;0.292025
+PED-202606-0004;2026-06-15;2026-06;Loja física;Zona Norte;Papelaria;Caneta (kit);1;16.9;0;8.5;16.9;16.9;8.5;8.4;0.497041
+PED-202606-0055;2026-06-15;2026-06;Loja física;Centro;Informática;Webcam;2;179.9;0;121.0;359.8;359.8;242.0;117.8;0.327404
+PED-202606-0006;2026-06-16;2026-06;Online;Zona Norte;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202606-0022;2026-06-16;2026-06;Loja física;Zona Norte;Acessórios;Headset básico;2;119.9;0.05;76.0;239.8;227.81;152.0;75.81;0.332777
+PED-202606-0048;2026-06-16;2026-06;Online;Zona Sul;Acessórios;Mouse sem fio;2;69.9;0;43.5;139.8;139.8;87.0;52.8;0.377682
+PED-202606-0003;2026-06-18;2026-06;Loja física;Centro;Informática;Hub USB;3;84.9;0;49.0;254.7;254.7;147.0;107.7;0.42285
+PED-202606-0013;2026-06-19;2026-06;Loja física;Zona Norte;Informática;Teclado;1;89.9;0.05;55.0;89.9;85.41;55.0;30.41;0.356047
+PED-202606-0034;2026-06-19;2026-06;Loja física;Centro;Papelaria;Caderno universitário;2;22.9;0.05;12.1;45.8;43.51;24.2;19.31;0.443806
+PED-202606-0037;2026-06-19;2026-06;WhatsApp;Centro;Papelaria;Caderno universitário;2;22.9;0;12.1;45.8;45.8;24.2;21.6;0.471616
+PED-202606-0038;2026-06-19;2026-06;Loja física;Centro;Informática;Webcam;1;179.9;0;121.0;179.9;179.9;121.0;58.9;0.327404
+PED-202606-0067;2026-06-20;2026-06;Loja física;Centro;Organização;Organizador de mesa;1;44.9;0.05;22.5;44.9;42.65;22.5;20.15;0.47245
+PED-202606-0009;2026-06-21;2026-06;Online;Zona Sul;Acessórios;Cabo USB-C;1;29.9;0.05;15.4;29.9;28.4;15.4;13.0;0.457746
+PED-202606-0021;2026-06-21;2026-06;Loja física;Centro;Organização;Suporte de notebook;2;99.9;0;57.5;199.8;199.8;115.0;84.8;0.424424
+PED-202606-0001;2026-06-22;2026-06;Online;Centro;Informática;Webcam;1;179.9;0.05;121.0;179.9;170.91;121.0;49.91;0.292025
+PED-202606-0012;2026-06-22;2026-06;Loja física;Zona Norte;Acessórios;Cabo USB-C;2;29.9;0;15.4;59.8;59.8;30.8;29.0;0.48495
+PED-202606-0052;2026-06-22;2026-06;WhatsApp;Zona Sul;Organização;Organizador de mesa;3;44.9;0;22.5;134.7;134.7;67.5;67.2;0.498886
+PED-202606-0064;2026-06-22;2026-06;Loja física;Zona Sul;Papelaria;Caneta (kit);4;16.9;0.1;8.5;67.6;60.84;34.0;26.84;0.441157
+PED-202606-0043;2026-06-24;2026-06;Loja física;Zona Norte;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202606-0058;2026-06-24;2026-06;Online;Centro;Papelaria;Bloco de notas;3;12.5;0.1;6.4;37.5;33.75;19.2;14.55;0.431111
+PED-202606-0057;2026-06-25;2026-06;WhatsApp;Centro;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202606-0049;2026-06-26;2026-06;Online;Zona Norte;Acessórios;Mouse sem fio;2;69.9;0;43.5;139.8;139.8;87.0;52.8;0.377682
+PED-202606-0059;2026-06-26;2026-06;Loja física;Zona Sul;Acessórios;Mouse sem fio;1;69.9;0.05;43.5;69.9;66.41;43.5;22.91;0.344978
+PED-202606-0066;2026-06-26;2026-06;Online;Centro;Papelaria;Caderno universitário;1;22.9;0.05;12.1;22.9;21.75;12.1;9.65;0.443678
+PED-202606-0016;2026-06-27;2026-06;Loja física;Zona Sul;Papelaria;Bloco de notas;2;12.5;0;6.4;25.0;25.0;12.8;12.2;0.488
+PED-202606-0029;2026-06-27;2026-06;Loja física;Zona Norte;Informática;Hub USB;3;84.9;0.05;49.0;254.7;241.96;147.0;94.96;0.392462
+PED-202606-0005;2026-06-28;2026-06;Loja física;Centro;Papelaria;Caderno universitário;2;22.9;0;12.1;45.8;45.8;24.2;21.6;0.471616
+PED-202606-0030;2026-06-28;2026-06;Loja física;Centro;Acessórios;Cabo USB-C;1;29.9;0.1;15.4;29.9;26.91;15.4;11.51;0.427722
+PED-202606-0040;2026-06-28;2026-06;WhatsApp;Centro;Papelaria;Bloco de notas;3;12.5;0;6.4;37.5;37.5;19.2;18.3;0.488
+PED-202606-0051;2026-06-28;2026-06;Loja física;Zona Norte;Organização;Organizador de mesa;1;44.9;0;22.5;44.9;44.9;22.5;22.4;0.498886
+PED-202606-0071;2026-06-28;2026-06;Loja física;Centro;Organização;Suporte de notebook;3;99.9;0;57.5;299.7;299.7;172.5;127.2;0.424424
+PED-202606-0008;2026-06-29;2026-06;Online;Centro;Acessórios;Mouse sem fio;4;69.9;0.05;43.5;279.6;265.62;174.0;91.62;0.344929
+PED-202606-0014;2026-06-29;2026-06;Loja física;Centro;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202606-0020;2026-06-29;2026-06;Loja física;Zona Norte;Acessórios;Headset básico;1;119.9;0;76.0;119.9;119.9;76.0;43.9;0.366138
+PED-202606-0074;2026-06-29;2026-06;Loja física;Centro;Papelaria;Caneta (kit);3;16.9;0;8.5;50.7;50.7;25.5;25.2;0.497041
+PED-202606-0025;2026-06-30;2026-06;Loja física;Zona Sul;Papelaria;Caneta (kit);2;16.9;0.05;8.5;33.8;32.11;17.0;15.11;0.47057
+PED-202606-0028;2026-06-30;2026-06;Online;Centro;Organização;Pasta catálogo;3;34.9;0;17.8;104.7;104.7;53.4;51.3;0.489971
+PED-202606-0061;2026-06-30;2026-06;Loja física;Zona Sul;Papelaria;Caneta (kit);2;16.9;0.1;8.5;33.8;30.42;17.0;13.42;0.441157
+PED-202607-0020;2026-07-01;2026-07;Loja física;Zona Norte;Papelaria;Caderno universitário;1;22.9;0;12.1;22.9;22.9;12.1;10.8;0.471616
+PED-202607-0042;2026-07-01;2026-07;Loja física;Zona Sul;Organização;Suporte de notebook;4;99.9;0;57.5;399.6;399.6;230.0;169.6;0.424424
+PED-202607-0088;2026-07-01;2026-07;Online;Zona Norte;Acessórios;Mouse sem fio;1;69.9;0.1;43.5;69.9;62.91;43.5;19.41;0.308536
+PED-202607-0004;2026-07-02;2026-07;WhatsApp;Centro;Informática;Webcam;1;179.9;0.05;121.0;179.9;170.91;121.0;49.91;0.292025
+PED-202607-0035;2026-07-02;2026-07;Online;Centro;Papelaria;Bloco de notas;2;12.5;0;6.4;25.0;25.0;12.8;12.2;0.488
+PED-202607-0037;2026-07-02;2026-07;Loja física;Zona Norte;Acessórios;Headset básico;2;119.9;0;76.0;239.8;239.8;152.0;87.8;0.366138
+PED-202607-0038;2026-07-02;2026-07;WhatsApp;Centro;Informática;Teclado;1;89.9;0;55.0;89.9;89.9;55.0;34.9;0.388209
+PED-202607-0016;2026-07-03;2026-07;Online;Zona Sul;Informática;Hub USB;3;84.9;0;49.0;254.7;254.7;147.0;107.7;0.42285
+PED-202607-0019;2026-07-03;2026-07;Loja física;Centro;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202607-0025;2026-07-03;2026-07;WhatsApp;Centro;Papelaria;Caneta (kit);2;16.9;0.05;8.5;33.8;32.11;17.0;15.11;0.47057
+PED-202607-0028;2026-07-03;2026-07;Online;Centro;Papelaria;Bloco de notas;2;12.5;0.05;6.4;25.0;23.75;12.8;10.95;0.461053
+PED-202607-0085;2026-07-03;2026-07;WhatsApp;Zona Norte;Papelaria;Bloco de notas;3;12.5;0;6.4;37.5;37.5;19.2;18.3;0.488
+PED-202607-0007;2026-07-04;2026-07;Online;Centro;Informática;Teclado;3;89.9;0;55.0;269.7;269.7;165.0;104.7;0.388209
+PED-202607-0061;2026-07-04;2026-07;Online;Centro;Acessórios;Mouse sem fio;1;69.9;0.1;43.5;69.9;62.91;43.5;19.41;0.308536
+PED-202607-0068;2026-07-04;2026-07;Loja física;Centro;Acessórios;Mouse sem fio;1;69.9;0.05;43.5;69.9;66.41;43.5;22.91;0.344978
+PED-202607-0084;2026-07-04;2026-07;WhatsApp;Centro;Acessórios;Mouse sem fio;1;69.9;0.05;43.5;69.9;66.41;43.5;22.91;0.344978
+PED-202607-0001;2026-07-05;2026-07;Online;Zona Norte;Acessórios;Mouse sem fio;1;69.9;0.05;43.5;69.9;66.41;43.5;22.91;0.344978
+PED-202607-0030;2026-07-05;2026-07;WhatsApp;Centro;Informática;Webcam;1;179.9;0;121.0;179.9;179.9;121.0;58.9;0.327404
+PED-202607-0046;2026-07-05;2026-07;Loja física;Centro;Papelaria;Bloco de notas;1;12.5;0.05;6.4;12.5;11.88;6.4;5.48;0.461279
+PED-202607-0015;2026-07-06;2026-07;Loja física;Centro;Organização;Pasta catálogo;2;34.9;0;17.8;69.8;69.8;35.6;34.2;0.489971
+PED-202607-0017;2026-07-06;2026-07;Online;Zona Norte;Acessórios;Mouse sem fio;2;69.9;0.05;43.5;139.8;132.81;87.0;45.81;0.344929
+PED-202607-0050;2026-07-06;2026-07;Loja física;Zona Sul;Papelaria;Bloco de notas;1;12.5;0;6.4;12.5;12.5;6.4;6.1;0.488
+PED-202607-0052;2026-07-06;2026-07;Loja física;Zona Norte;Papelaria;Caneta (kit);1;16.9;0;8.5;16.9;16.9;8.5;8.4;0.497041
+PED-202607-0076;2026-07-07;2026-07;Online;Zona Sul;Papelaria;Bloco de notas;3;12.5;0.15;6.4;37.5;31.88;19.2;12.68;0.397742
+PED-202607-0081;2026-07-07;2026-07;Online;Centro;Informática;Teclado;1;89.9;0.05;55.0;89.9;85.41;55.0;30.41;0.356047
+PED-202607-0021;2026-07-09;2026-07;WhatsApp;Centro;Acessórios;Headset básico;2;119.9;0.1;76.0;239.8;215.82;152.0;63.82;0.295709
+PED-202607-0008;2026-07-10;2026-07;Loja física;Centro;Informática;Hub USB;2;84.9;0;49.0;169.8;169.8;98.0;71.8;0.42285
+PED-202607-0005;2026-07-11;2026-07;Loja física;Zona Norte;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202607-0029;2026-07-11;2026-07;Loja física;Centro;Papelaria;Bloco de notas;1;12.5;0;6.4;12.5;12.5;6.4;6.1;0.488
+PED-202607-0032;2026-07-11;2026-07;Online;Zona Sul;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202607-0065;2026-07-11;2026-07;Loja física;Centro;Organização;Pasta catálogo;3;34.9;0.05;17.8;104.7;99.47;53.4;46.07;0.463155
+PED-202607-0022;2026-07-12;2026-07;WhatsApp;Zona Norte;Papelaria;Bloco de notas;4;12.5;0.1;6.4;50.0;45.0;25.6;19.4;0.431111
+PED-202607-0036;2026-07-12;2026-07;Online;Centro;Papelaria;Bloco de notas;1;12.5;0;6.4;12.5;12.5;6.4;6.1;0.488
+PED-202607-0055;2026-07-12;2026-07;Online;Zona Norte;Informática;Hub USB;4;84.9;0.05;49.0;339.6;322.62;196.0;126.62;0.392474
+PED-202607-0014;2026-07-13;2026-07;Online;Centro;Acessórios;Cabo USB-C;2;29.9;0;15.4;59.8;59.8;30.8;29.0;0.48495
+PED-202607-0024;2026-07-13;2026-07;WhatsApp;Centro;Papelaria;Caderno universitário;2;22.9;0;12.1;45.8;45.8;24.2;21.6;0.471616
+PED-202607-0043;2026-07-13;2026-07;Loja física;Zona Norte;Organização;Suporte de notebook;1;99.9;0.1;57.5;99.9;89.91;57.5;32.41;0.360472
+PED-202607-0053;2026-07-14;2026-07;Loja física;Zona Sul;Papelaria;Caneta (kit);2;16.9;0;8.5;33.8;33.8;17.0;16.8;0.497041
+PED-202607-0075;2026-07-14;2026-07;Online;Zona Norte;Papelaria;Caneta (kit);3;16.9;0.1;8.5;50.7;45.63;25.5;20.13;0.441157
+PED-202607-0026;2026-07-15;2026-07;WhatsApp;Zona Norte;Organização;Pasta catálogo;1;34.9;0;17.8;34.9;34.9;17.8;17.1;0.489971
+PED-202607-0033;2026-07-15;2026-07;WhatsApp;Centro;Papelaria;Caneta (kit);4;16.9;0;8.5;67.6;67.6;34.0;33.6;0.497041
+PED-202607-0040;2026-07-15;2026-07;Loja física;Zona Norte;Informática;Hub USB;3;84.9;0.05;49.0;254.7;241.96;147.0;94.96;0.392462
+PED-202607-0051;2026-07-15;2026-07;Online;Zona Sul;Papelaria;Bloco de notas;1;12.5;0.1;6.4;12.5;11.25;6.4;4.85;0.431111
+PED-202607-0057;2026-07-15;2026-07;Loja física;Zona Norte;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202607-0003;2026-07-16;2026-07;Online;Centro;Papelaria;Caderno universitário;4;22.9;0.05;12.1;91.6;87.02;48.4;38.62;0.443806
+PED-202607-0006;2026-07-16;2026-07;Loja física;Zona Norte;Organização;Suporte de notebook;2;99.9;0;57.5;199.8;199.8;115.0;84.8;0.424424
+PED-202607-0041;2026-07-17;2026-07;Loja física;Centro;Papelaria;Bloco de notas;2;12.5;0;6.4;25.0;25.0;12.8;12.2;0.488
+PED-202607-0045;2026-07-17;2026-07;WhatsApp;Centro;Organização;Pasta catálogo;1;34.9;0;17.8;34.9;34.9;17.8;17.1;0.489971
+PED-202607-0047;2026-07-17;2026-07;WhatsApp;Centro;Papelaria;Caneta (kit);4;16.9;0;8.5;67.6;67.6;34.0;33.6;0.497041
+PED-202607-0056;2026-07-17;2026-07;Online;Centro;Papelaria;Bloco de notas;1;12.5;0.1;6.4;12.5;11.25;6.4;4.85;0.431111
+PED-202607-0077;2026-07-17;2026-07;Loja física;Zona Sul;Acessórios;Mouse sem fio;1;69.9;0;43.5;69.9;69.9;43.5;26.4;0.377682
+PED-202607-0063;2026-07-18;2026-07;WhatsApp;Zona Sul;Organização;Suporte de notebook;4;99.9;0.05;57.5;399.6;379.62;230.0;149.62;0.394131
+PED-202607-0073;2026-07-18;2026-07;Online;Zona Norte;Informática;Webcam;1;179.9;0;121.0;179.9;179.9;121.0;58.9;0.327404
+PED-202607-0002;2026-07-19;2026-07;Loja física;Centro;Organização;Organizador de mesa;2;44.9;0;22.5;89.8;89.8;45.0;44.8;0.498886
+PED-202607-0034;2026-07-19;2026-07;Loja física;Zona Norte;Informática;Hub USB;1;84.9;0.05;49.0;84.9;80.66;49.0;31.66;0.392512
+PED-202607-0083;2026-07-19;2026-07;Online;Centro;Acessórios;Mouse sem fio;2;69.9;0;43.5;139.8;139.8;87.0;52.8;0.377682
+PED-202607-0009;2026-07-20;2026-07;Online;Zona Sul;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202607-0064;2026-07-20;2026-07;Loja física;Zona Sul;Papelaria;Bloco de notas;2;12.5;0.1;6.4;25.0;22.5;12.8;9.7;0.431111
+PED-202607-0048;2026-07-22;2026-07;Online;Zona Norte;Informática;Teclado;2;89.9;0;55.0;179.8;179.8;110.0;69.8;0.388209
+PED-202607-0066;2026-07-22;2026-07;Online;Centro;Papelaria;Caderno universitário;4;22.9;0;12.1;91.6;91.6;48.4;43.2;0.471616
+PED-202607-0082;2026-07-22;2026-07;Loja física;Zona Sul;Papelaria;Caneta (kit);1;16.9;0.1;8.5;16.9;15.21;8.5;6.71;0.441157
+PED-202607-0011;2026-07-23;2026-07;Loja física;Centro;Acessórios;Mouse sem fio;1;69.9;0;43.5;69.9;69.9;43.5;26.4;0.377682
+PED-202607-0023;2026-07-23;2026-07;Loja física;Zona Norte;Acessórios;Cabo USB-C;2;29.9;0;15.4;59.8;59.8;30.8;29.0;0.48495
+PED-202607-0067;2026-07-23;2026-07;Loja física;Centro;Acessórios;Mouse sem fio;1;69.9;0;43.5;69.9;69.9;43.5;26.4;0.377682
+PED-202607-0079;2026-07-23;2026-07;Loja física;Zona Norte;Organização;Suporte de notebook;3;99.9;0;57.5;299.7;299.7;172.5;127.2;0.424424
+PED-202607-0044;2026-07-24;2026-07;WhatsApp;Zona Norte;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202607-0012;2026-07-25;2026-07;Loja física;Centro;Papelaria;Caneta (kit);2;16.9;0.1;8.5;33.8;30.42;17.0;13.42;0.441157
+PED-202607-0027;2026-07-25;2026-07;Loja física;Zona Sul;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202607-0062;2026-07-25;2026-07;Loja física;Centro;Organização;Pasta catálogo;1;34.9;0.05;17.8;34.9;33.15;17.8;15.35;0.463047
+PED-202607-0039;2026-07-26;2026-07;Online;Centro;Informática;Teclado;2;89.9;0;55.0;179.8;179.8;110.0;69.8;0.388209
+PED-202607-0070;2026-07-26;2026-07;Loja física;Zona Sul;Papelaria;Caneta (kit);1;16.9;0;8.5;16.9;16.9;8.5;8.4;0.497041
+PED-202607-0078;2026-07-26;2026-07;Loja física;Zona Norte;Acessórios;Headset básico;1;119.9;0;76.0;119.9;119.9;76.0;43.9;0.366138
+PED-202607-0080;2026-07-26;2026-07;Online;Zona Sul;Papelaria;Caneta (kit);2;16.9;0;8.5;33.8;33.8;17.0;16.8;0.497041
+PED-202607-0087;2026-07-26;2026-07;Online;Zona Norte;Organização;Organizador de mesa;1;44.9;0;22.5;44.9;44.9;22.5;22.4;0.498886
+PED-202607-0086;2026-07-27;2026-07;Online;Centro;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202607-0049;2026-07-28;2026-07;Loja física;Centro;Papelaria;Bloco de notas;1;12.5;0.05;6.4;12.5;11.88;6.4;5.48;0.461279
+PED-202607-0059;2026-07-28;2026-07;WhatsApp;Zona Sul;Papelaria;Caderno universitário;3;22.9;0.05;12.1;68.7;65.27;36.3;28.97;0.443849
+PED-202607-0060;2026-07-28;2026-07;Loja física;Centro;Acessórios;Headset básico;2;119.9;0;76.0;239.8;239.8;152.0;87.8;0.366138
+PED-202607-0072;2026-07-28;2026-07;Online;Centro;Acessórios;Headset básico;3;119.9;0;76.0;359.7;359.7;228.0;131.7;0.366138
+PED-202607-0031;2026-07-29;2026-07;Online;Centro;Papelaria;Bloco de notas;2;12.5;0.05;6.4;25.0;23.75;12.8;10.95;0.461053
+PED-202607-0010;2026-07-30;2026-07;Loja física;Zona Norte;Organização;Suporte de notebook;2;99.9;0.1;57.5;199.8;179.82;115.0;64.82;0.360472
+PED-202607-0069;2026-07-30;2026-07;Loja física;Zona Norte;Acessórios;Mouse sem fio;1;69.9;0.05;43.5;69.9;66.41;43.5;22.91;0.344978
+PED-202607-0013;2026-07-31;2026-07;Loja física;Centro;Papelaria;Caneta (kit);3;16.9;0;8.5;50.7;50.7;25.5;25.2;0.497041
+PED-202607-0018;2026-07-31;2026-07;Loja física;Zona Sul;Organização;Suporte de notebook;2;99.9;0;57.5;199.8;199.8;115.0;84.8;0.424424
+PED-202607-0054;2026-07-31;2026-07;Online;Zona Norte;Acessórios;Headset básico;3;119.9;0;76.0;359.7;359.7;228.0;131.7;0.366138
+PED-202607-0058;2026-07-31;2026-07;Online;Centro;Acessórios;Cabo USB-C;3;29.9;0;15.4;89.7;89.7;46.2;43.5;0.48495
+PED-202607-0071;2026-07-31;2026-07;Online;Zona Sul;Organização;Organizador de mesa;1;44.9;0.05;22.5;44.9;42.65;22.5;20.15;0.47245
+PED-202607-0074;2026-07-31;2026-07;Loja física;Centro;Papelaria;Bloco de notas;1;12.5;0;6.4;12.5;12.5;6.4;6.1;0.488
+PED-202608-0001;2026-08-01;2026-08;Online;Zona Sul;Acessórios;Headset básico;2;119.9;0;76.0;239.8;239.8;152.0;87.8;0.366138
+PED-202608-0031;2026-08-01;2026-08;WhatsApp;Centro;Acessórios;Headset básico;3;119.9;0;76.0;359.7;359.7;228.0;131.7;0.366138
+PED-202608-0084;2026-08-01;2026-08;Loja física;Zona Sul;Informática;Hub USB;4;84.9;0;49.0;339.6;339.6;196.0;143.6;0.42285
+PED-202608-0011;2026-08-02;2026-08;Loja física;Centro;Organização;Suporte de notebook;1;99.9;0.1;57.5;99.9;89.91;57.5;32.41;0.360472
+PED-202608-0048;2026-08-02;2026-08;Loja física;Centro;Organização;Pasta catálogo;1;34.9;0.05;17.8;34.9;33.15;17.8;15.35;0.463047
+PED-202608-0056;2026-08-02;2026-08;Loja física;Centro;Papelaria;Bloco de notas;4;12.5;0;6.4;50.0;50.0;25.6;24.4;0.488
+PED-202608-0072;2026-08-02;2026-08;Online;Zona Sul;Informática;Hub USB;1;84.9;0.15;49.0;84.9;72.17;49.0;23.17;0.321048
+PED-202608-0093;2026-08-02;2026-08;Loja física;Centro;Papelaria;Caneta (kit);4;16.9;0.05;8.5;67.6;64.22;34.0;30.22;0.47057
+PED-202608-0021;2026-08-03;2026-08;Loja física;Centro;Acessórios;Headset básico;2;119.9;0;76.0;239.8;239.8;152.0;87.8;0.366138
+PED-202608-0026;2026-08-03;2026-08;Loja física;Zona Sul;Informática;Hub USB;1;84.9;0;49.0;84.9;84.9;49.0;35.9;0.42285
+PED-202608-0069;2026-08-03;2026-08;Online;Centro;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202608-0002;2026-08-04;2026-08;Online;Centro;Papelaria;Caderno universitário;1;22.9;0.1;12.1;22.9;20.61;12.1;8.51;0.412906
+PED-202608-0075;2026-08-04;2026-08;WhatsApp;Zona Sul;Informática;Hub USB;1;84.9;0.1;49.0;84.9;76.41;49.0;27.41;0.358723
+PED-202608-0005;2026-08-05;2026-08;WhatsApp;Centro;Papelaria;Caderno universitário;3;22.9;0;12.1;68.7;68.7;36.3;32.4;0.471616
+PED-202608-0067;2026-08-05;2026-08;Loja física;Zona Norte;Papelaria;Caneta (kit);1;16.9;0;8.5;16.9;16.9;8.5;8.4;0.497041
+PED-202608-0022;2026-08-06;2026-08;Online;Centro;Papelaria;Bloco de notas;2;12.5;0.1;6.4;25.0;22.5;12.8;9.7;0.431111
+PED-202608-0062;2026-08-06;2026-08;Online;Centro;Informática;Hub USB;3;84.9;0.15;49.0;254.7;216.49;147.0;69.49;0.320985
+PED-202608-0076;2026-08-06;2026-08;Loja física;Centro;Papelaria;Caderno universitário;4;22.9;0.05;12.1;91.6;87.02;48.4;38.62;0.443806
+PED-202608-0077;2026-08-06;2026-08;WhatsApp;Zona Sul;Informática;Webcam;3;179.9;0;121.0;539.7;539.7;363.0;176.7;0.327404
+PED-202608-0012;2026-08-07;2026-08;Loja física;Zona Sul;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202608-0057;2026-08-07;2026-08;Online;Zona Sul;Acessórios;Mouse sem fio;2;69.9;0.1;43.5;139.8;125.82;87.0;38.82;0.308536
+PED-202608-0058;2026-08-08;2026-08;WhatsApp;Zona Norte;Informática;Teclado;1;89.9;0;55.0;89.9;89.9;55.0;34.9;0.388209
+PED-202608-0055;2026-08-09;2026-08;Loja física;Centro;Organização;Suporte de notebook;1;99.9;0.05;57.5;99.9;94.91;57.5;37.41;0.394163
+PED-202608-0071;2026-08-09;2026-08;Loja física;Centro;Acessórios;Cabo USB-C;2;29.9;0;15.4;59.8;59.8;30.8;29.0;0.48495
+PED-202608-0047;2026-08-10;2026-08;Online;Zona Norte;Organização;Suporte de notebook;1;99.9;0.1;57.5;99.9;89.91;57.5;32.41;0.360472
+PED-202608-0007;2026-08-11;2026-08;Loja física;Zona Norte;Organização;Pasta catálogo;2;34.9;0;17.8;69.8;69.8;35.6;34.2;0.489971
+PED-202608-0010;2026-08-11;2026-08;Online;Centro;Papelaria;Caneta (kit);2;16.9;0;8.5;33.8;33.8;17.0;16.8;0.497041
+PED-202608-0038;2026-08-11;2026-08;Online;Zona Norte;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202608-0060;2026-08-11;2026-08;Online;Zona Norte;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202608-0016;2026-08-13;2026-08;WhatsApp;Centro;Informática;Teclado;1;89.9;0;55.0;89.9;89.9;55.0;34.9;0.388209
+PED-202608-0089;2026-08-13;2026-08;Loja física;Centro;Organização;Pasta catálogo;1;34.9;0;17.8;34.9;34.9;17.8;17.1;0.489971
+PED-202608-0004;2026-08-14;2026-08;Loja física;Centro;Organização;Pasta catálogo;1;34.9;0;17.8;34.9;34.9;17.8;17.1;0.489971
+PED-202608-0074;2026-08-14;2026-08;Loja física;Zona Sul;Informática;Webcam;2;179.9;0.1;121.0;359.8;323.82;242.0;81.82;0.252671
+PED-202608-0078;2026-08-14;2026-08;Loja física;Zona Norte;Papelaria;Caneta (kit);3;16.9;0;8.5;50.7;50.7;25.5;25.2;0.497041
+PED-202608-0088;2026-08-14;2026-08;Online;Zona Sul;Organização;Suporte de notebook;2;99.9;0.05;57.5;199.8;189.81;115.0;74.81;0.394131
+PED-202608-0037;2026-08-15;2026-08;Loja física;Zona Norte;Acessórios;Headset básico;3;119.9;0;76.0;359.7;359.7;228.0;131.7;0.366138
+PED-202608-0043;2026-08-15;2026-08;WhatsApp;Zona Norte;Papelaria;Caderno universitário;3;22.9;0;12.1;68.7;68.7;36.3;32.4;0.471616
+PED-202608-0081;2026-08-15;2026-08;Loja física;Zona Sul;Informática;Webcam;1;179.9;0.15;121.0;179.9;152.91;121.0;31.91;0.208685
+PED-202608-0036;2026-08-16;2026-08;Loja física;Zona Norte;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202608-0049;2026-08-16;2026-08;WhatsApp;Centro;Acessórios;Headset básico;3;119.9;0;76.0;359.7;359.7;228.0;131.7;0.366138
+PED-202608-0066;2026-08-16;2026-08;WhatsApp;Centro;Acessórios;Mouse sem fio;2;69.9;0;43.5;139.8;139.8;87.0;52.8;0.377682
+PED-202608-0079;2026-08-16;2026-08;WhatsApp;Zona Norte;Organização;Organizador de mesa;1;44.9;0;22.5;44.9;44.9;22.5;22.4;0.498886
+PED-202608-0082;2026-08-16;2026-08;WhatsApp;Centro;Acessórios;Headset básico;1;119.9;0;76.0;119.9;119.9;76.0;43.9;0.366138
+PED-202608-0092;2026-08-16;2026-08;Loja física;Zona Norte;Organização;Organizador de mesa;1;44.9;0;22.5;44.9;44.9;22.5;22.4;0.498886
+PED-202608-0094;2026-08-16;2026-08;WhatsApp;Zona Sul;Acessórios;Cabo USB-C;1;29.9;0.1;15.4;29.9;26.91;15.4;11.51;0.427722
+PED-202608-0028;2026-08-17;2026-08;WhatsApp;Centro;Informática;Webcam;1;179.9;0;121.0;179.9;179.9;121.0;58.9;0.327404
+PED-202608-0080;2026-08-17;2026-08;Online;Zona Norte;Informática;Teclado;2;89.9;0;55.0;179.8;179.8;110.0;69.8;0.388209
+PED-202608-0035;2026-08-18;2026-08;WhatsApp;Zona Sul;Organização;Pasta catálogo;2;34.9;0.05;17.8;69.8;66.31;35.6;30.71;0.463128
+PED-202608-0083;2026-08-18;2026-08;Loja física;Zona Sul;Papelaria;Caneta (kit);4;16.9;0;8.5;67.6;67.6;34.0;33.6;0.497041
+PED-202608-0019;2026-08-19;2026-08;Loja física;Zona Norte;Informática;Hub USB;3;84.9;0.1;49.0;254.7;229.23;147.0;82.23;0.358723
+PED-202608-0087;2026-08-19;2026-08;WhatsApp;Centro;Informática;Webcam;1;179.9;0.05;121.0;179.9;170.91;121.0;49.91;0.292025
+PED-202608-0046;2026-08-20;2026-08;WhatsApp;Centro;Informática;Teclado;3;89.9;0.1;55.0;269.7;242.73;165.0;77.73;0.320232
+PED-202608-0068;2026-08-20;2026-08;Loja física;Zona Sul;Papelaria;Caneta (kit);2;16.9;0.05;8.5;33.8;32.11;17.0;15.11;0.47057
+PED-202608-0030;2026-08-21;2026-08;Online;Zona Norte;Papelaria;Bloco de notas;2;12.5;0;6.4;25.0;25.0;12.8;12.2;0.488
+PED-202608-0045;2026-08-21;2026-08;Loja física;Centro;Acessórios;Headset básico;1;119.9;0;76.0;119.9;119.9;76.0;43.9;0.366138
+PED-202608-0085;2026-08-21;2026-08;Loja física;Zona Norte;Acessórios;Mouse sem fio;4;69.9;0;43.5;279.6;279.6;174.0;105.6;0.377682
+PED-202608-0020;2026-08-22;2026-08;Loja física;Centro;Papelaria;Caderno universitário;4;22.9;0;12.1;91.6;91.6;48.4;43.2;0.471616
+PED-202608-0044;2026-08-22;2026-08;WhatsApp;Centro;Acessórios;Headset básico;2;119.9;0;76.0;239.8;239.8;152.0;87.8;0.366138
+PED-202608-0061;2026-08-22;2026-08;WhatsApp;Zona Sul;Papelaria;Caderno universitário;1;22.9;0.1;12.1;22.9;20.61;12.1;8.51;0.412906
+PED-202608-0040;2026-08-23;2026-08;Loja física;Centro;Acessórios;Mouse sem fio;1;69.9;0;43.5;69.9;69.9;43.5;26.4;0.377682
+PED-202608-0032;2026-08-24;2026-08;Online;Zona Norte;Acessórios;Headset básico;2;119.9;0.05;76.0;239.8;227.81;152.0;75.81;0.332777
+PED-202608-0033;2026-08-24;2026-08;WhatsApp;Centro;Organização;Suporte de notebook;2;99.9;0;57.5;199.8;199.8;115.0;84.8;0.424424
+PED-202608-0051;2026-08-24;2026-08;Loja física;Centro;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202608-0017;2026-08-25;2026-08;Loja física;Centro;Papelaria;Caneta (kit);2;16.9;0.05;8.5;33.8;32.11;17.0;15.11;0.47057
+PED-202608-0018;2026-08-25;2026-08;WhatsApp;Zona Norte;Informática;Hub USB;2;84.9;0;49.0;169.8;169.8;98.0;71.8;0.42285
+PED-202608-0025;2026-08-25;2026-08;Loja física;Centro;Acessórios;Mouse sem fio;2;69.9;0.05;43.5;139.8;132.81;87.0;45.81;0.344929
+PED-202608-0034;2026-08-25;2026-08;Loja física;Zona Sul;Informática;Teclado;3;89.9;0;55.0;269.7;269.7;165.0;104.7;0.388209
+PED-202608-0039;2026-08-25;2026-08;Loja física;Zona Norte;Organização;Suporte de notebook;2;99.9;0;57.5;199.8;199.8;115.0;84.8;0.424424
+PED-202608-0052;2026-08-26;2026-08;Online;Zona Norte;Acessórios;Mouse sem fio;1;69.9;0;43.5;69.9;69.9;43.5;26.4;0.377682
+PED-202608-0063;2026-08-26;2026-08;Online;Centro;Papelaria;Caneta (kit);4;16.9;0.05;8.5;67.6;64.22;34.0;30.22;0.47057
+PED-202608-0064;2026-08-26;2026-08;WhatsApp;Zona Norte;Organização;Suporte de notebook;2;99.9;0.05;57.5;199.8;189.81;115.0;74.81;0.394131
+PED-202608-0073;2026-08-26;2026-08;Loja física;Zona Sul;Organização;Pasta catálogo;2;34.9;0.05;17.8;69.8;66.31;35.6;30.71;0.463128
+PED-202608-0090;2026-08-26;2026-08;WhatsApp;Centro;Organização;Organizador de mesa;3;44.9;0;22.5;134.7;134.7;67.5;67.2;0.498886
+PED-202608-0003;2026-08-27;2026-08;WhatsApp;Zona Norte;Organização;Pasta catálogo;1;34.9;0.05;17.8;34.9;33.15;17.8;15.35;0.463047
+PED-202608-0024;2026-08-27;2026-08;Loja física;Zona Sul;Papelaria;Bloco de notas;4;12.5;0;6.4;50.0;50.0;25.6;24.4;0.488
+PED-202608-0042;2026-08-27;2026-08;Loja física;Centro;Informática;Webcam;1;179.9;0;121.0;179.9;179.9;121.0;58.9;0.327404
+PED-202608-0091;2026-08-27;2026-08;Loja física;Zona Norte;Informática;Hub USB;1;84.9;0;49.0;84.9;84.9;49.0;35.9;0.42285
+PED-202608-0013;2026-08-28;2026-08;WhatsApp;Zona Norte;Papelaria;Caderno universitário;2;22.9;0.05;12.1;45.8;43.51;24.2;19.31;0.443806
+PED-202608-0041;2026-08-28;2026-08;Loja física;Centro;Papelaria;Bloco de notas;2;12.5;0;6.4;25.0;25.0;12.8;12.2;0.488
+PED-202608-0053;2026-08-28;2026-08;Online;Zona Norte;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202608-0059;2026-08-28;2026-08;Loja física;Centro;Acessórios;Mouse sem fio;1;69.9;0;43.5;69.9;69.9;43.5;26.4;0.377682
+PED-202608-0006;2026-08-29;2026-08;WhatsApp;Zona Sul;Informática;Webcam;1;179.9;0;121.0;179.9;179.9;121.0;58.9;0.327404
+PED-202608-0009;2026-08-29;2026-08;Online;Centro;Organização;Pasta catálogo;1;34.9;0;17.8;34.9;34.9;17.8;17.1;0.489971
+PED-202608-0050;2026-08-29;2026-08;Loja física;Zona Norte;Organização;Suporte de notebook;1;99.9;0.05;57.5;99.9;94.91;57.5;37.41;0.394163
+PED-202608-0086;2026-08-29;2026-08;Loja física;Zona Sul;Organização;Organizador de mesa;2;44.9;0.05;22.5;89.8;85.31;45.0;40.31;0.472512
+PED-202608-0008;2026-08-30;2026-08;Online;Centro;Papelaria;Caneta (kit);1;16.9;0;8.5;16.9;16.9;8.5;8.4;0.497041
+PED-202608-0014;2026-08-30;2026-08;Online;Centro;Organização;Suporte de notebook;1;99.9;0.05;57.5;99.9;94.91;57.5;37.41;0.394163
+PED-202608-0027;2026-08-30;2026-08;Loja física;Centro;Informática;Hub USB;1;84.9;0.05;49.0;84.9;80.66;49.0;31.66;0.392512
+PED-202608-0065;2026-08-30;2026-08;Loja física;Zona Sul;Papelaria;Caderno universitário;1;22.9;0.1;12.1;22.9;20.61;12.1;8.51;0.412906
+PED-202608-0070;2026-08-30;2026-08;Online;Zona Norte;Acessórios;Headset básico;2;119.9;0.15;76.0;239.8;203.83;152.0;51.83;0.254281
+PED-202608-0015;2026-08-31;2026-08;Online;Centro;Informática;Hub USB;2;84.9;0;49.0;169.8;169.8;98.0;71.8;0.42285
+PED-202608-0023;2026-08-31;2026-08;Loja física;Zona Norte;Papelaria;Caneta (kit);2;16.9;0;8.5;33.8;33.8;17.0;16.8;0.497041
+PED-202608-0029;2026-08-31;2026-08;WhatsApp;Zona Norte;Papelaria;Caderno universitário;2;22.9;0;12.1;45.8;45.8;24.2;21.6;0.471616
+PED-202608-0054;2026-08-31;2026-08;WhatsApp;Centro;Informática;Hub USB;1;84.9;0.1;49.0;84.9;76.41;49.0;27.41;0.358723
+PED-202609-0010;2026-09-01;2026-09;Loja física;Centro;Informática;Hub USB;2;84.9;0;49.0;169.8;169.8;98.0;71.8;0.42285
+PED-202609-0047;2026-09-01;2026-09;Loja física;Centro;Papelaria;Bloco de notas;2;12.5;0.05;6.4;25.0;23.75;12.8;10.95;0.461053
+PED-202609-0069;2026-09-01;2026-09;Loja física;Centro;Acessórios;Headset básico;3;119.9;0.05;76.0;359.7;341.71;228.0;113.71;0.332768
+PED-202609-0075;2026-09-01;2026-09;Loja física;Zona Norte;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202609-0081;2026-09-01;2026-09;Loja física;Zona Sul;Informática;Hub USB;1;84.9;0;49.0;84.9;84.9;49.0;35.9;0.42285
+PED-202609-0009;2026-09-02;2026-09;Loja física;Centro;Papelaria;Caneta (kit);3;16.9;0.1;8.5;50.7;45.63;25.5;20.13;0.441157
+PED-202609-0038;2026-09-02;2026-09;Loja física;Zona Sul;Papelaria;Caderno universitário;2;22.9;0.15;12.1;45.8;38.93;24.2;14.73;0.378371
+PED-202609-0076;2026-09-02;2026-09;Online;Centro;Acessórios;Mouse sem fio;3;69.9;0;43.5;209.7;209.7;130.5;79.2;0.377682
+PED-202609-0011;2026-09-03;2026-09;WhatsApp;Zona Sul;Organização;Organizador de mesa;4;44.9;0.1;22.5;179.6;161.64;90.0;71.64;0.443207
+PED-202609-0020;2026-09-03;2026-09;Online;Zona Norte;Papelaria;Caderno universitário;3;22.9;0.05;12.1;68.7;65.27;36.3;28.97;0.443849
+PED-202609-0032;2026-09-03;2026-09;Loja física;Centro;Organização;Pasta catálogo;1;34.9;0.1;17.8;34.9;31.41;17.8;13.61;0.433301
+PED-202609-0060;2026-09-03;2026-09;Loja física;Zona Norte;Acessórios;Cabo USB-C;2;29.9;0.1;15.4;59.8;53.82;30.8;23.02;0.427722
+PED-202609-0029;2026-09-04;2026-09;WhatsApp;Zona Sul;Organização;Organizador de mesa;2;44.9;0.15;22.5;89.8;76.33;45.0;31.33;0.410455
+PED-202609-0049;2026-09-04;2026-09;Online;Zona Sul;Papelaria;Caderno universitário;1;22.9;0.15;12.1;22.9;19.46;12.1;7.36;0.378212
+PED-202609-0052;2026-09-04;2026-09;Loja física;Centro;Acessórios;Headset básico;2;119.9;0.1;76.0;239.8;215.82;152.0;63.82;0.295709
+PED-202609-0059;2026-09-04;2026-09;Loja física;Zona Norte;Informática;Teclado;1;89.9;0.05;55.0;89.9;85.41;55.0;30.41;0.356047
+PED-202609-0074;2026-09-04;2026-09;Loja física;Centro;Papelaria;Caderno universitário;1;22.9;0.15;12.1;22.9;19.46;12.1;7.36;0.378212
+PED-202609-0053;2026-09-05;2026-09;WhatsApp;Zona Sul;Informática;Hub USB;2;84.9;0.05;49.0;169.8;161.31;98.0;63.31;0.392474
+PED-202609-0067;2026-09-05;2026-09;Loja física;Centro;Organização;Pasta catálogo;2;34.9;0.05;17.8;69.8;66.31;35.6;30.71;0.463128
+PED-202609-0078;2026-09-05;2026-09;Loja física;Centro;Papelaria;Bloco de notas;2;12.5;0;6.4;25.0;25.0;12.8;12.2;0.488
+PED-202609-0007;2026-09-06;2026-09;Loja física;Centro;Informática;Teclado;3;89.9;0;55.0;269.7;269.7;165.0;104.7;0.388209
+PED-202609-0001;2026-09-07;2026-09;WhatsApp;Centro;Organização;Suporte de notebook;2;99.9;0.05;57.5;199.8;189.81;115.0;74.81;0.394131
+PED-202609-0004;2026-09-07;2026-09;Loja física;Centro;Papelaria;Bloco de notas;1;12.5;0.15;6.4;12.5;10.62;6.4;4.22;0.397363
+PED-202609-0012;2026-09-07;2026-09;WhatsApp;Zona Sul;Organização;Suporte de notebook;2;99.9;0.05;57.5;199.8;189.81;115.0;74.81;0.394131
+PED-202609-0034;2026-09-07;2026-09;Online;Zona Norte;Informática;Webcam;1;179.9;0;121.0;179.9;179.9;121.0;58.9;0.327404
+PED-202609-0026;2026-09-08;2026-09;Loja física;Zona Norte;Acessórios;Headset básico;1;119.9;0;76.0;119.9;119.9;76.0;43.9;0.366138
+PED-202609-0027;2026-09-08;2026-09;Loja física;Zona Norte;Informática;Hub USB;1;84.9;0;49.0;84.9;84.9;49.0;35.9;0.42285
+PED-202609-0072;2026-09-08;2026-09;WhatsApp;Zona Norte;Papelaria;Caneta (kit);3;16.9;0;8.5;50.7;50.7;25.5;25.2;0.497041
+PED-202609-0013;2026-09-09;2026-09;WhatsApp;Zona Norte;Organização;Pasta catálogo;1;34.9;0.15;17.8;34.9;29.66;17.8;11.86;0.399865
+PED-202609-0023;2026-09-09;2026-09;Loja física;Centro;Organização;Organizador de mesa;2;44.9;0;22.5;89.8;89.8;45.0;44.8;0.498886
+PED-202609-0050;2026-09-10;2026-09;Loja física;Zona Norte;Acessórios;Cabo USB-C;4;29.9;0;15.4;119.6;119.6;61.6;58.0;0.48495
+PED-202609-0063;2026-09-11;2026-09;Loja física;Centro;Acessórios;Mouse sem fio;1;69.9;0;43.5;69.9;69.9;43.5;26.4;0.377682
+PED-202609-0002;2026-09-12;2026-09;WhatsApp;Zona Sul;Informática;Webcam;2;179.9;0;121.0;359.8;359.8;242.0;117.8;0.327404
+PED-202609-0043;2026-09-12;2026-09;WhatsApp;Zona Sul;Acessórios;Headset básico;1;119.9;0.05;76.0;119.9;113.91;76.0;37.91;0.332807
+PED-202609-0041;2026-09-13;2026-09;Loja física;Centro;Informática;Teclado;1;89.9;0;55.0;89.9;89.9;55.0;34.9;0.388209
+PED-202609-0045;2026-09-13;2026-09;Loja física;Centro;Organização;Organizador de mesa;1;44.9;0.05;22.5;44.9;42.65;22.5;20.15;0.47245
+PED-202609-0070;2026-09-13;2026-09;Loja física;Centro;Acessórios;Headset básico;2;119.9;0.05;76.0;239.8;227.81;152.0;75.81;0.332777
+PED-202609-0015;2026-09-14;2026-09;Loja física;Zona Sul;Organização;Suporte de notebook;4;99.9;0.05;57.5;399.6;379.62;230.0;149.62;0.394131
+PED-202609-0018;2026-09-14;2026-09;Loja física;Zona Norte;Acessórios;Mouse sem fio;1;69.9;0.05;43.5;69.9;66.41;43.5;22.91;0.344978
+PED-202609-0028;2026-09-14;2026-09;Loja física;Zona Sul;Informática;Hub USB;3;84.9;0;49.0;254.7;254.7;147.0;107.7;0.42285
+PED-202609-0058;2026-09-14;2026-09;Loja física;Centro;Papelaria;Caderno universitário;2;22.9;0.05;12.1;45.8;43.51;24.2;19.31;0.443806
+PED-202609-0062;2026-09-14;2026-09;WhatsApp;Zona Norte;Informática;Teclado;3;89.9;0;55.0;269.7;269.7;165.0;104.7;0.388209
+PED-202609-0079;2026-09-14;2026-09;Loja física;Zona Sul;Acessórios;Headset básico;4;119.9;0;76.0;479.6;479.6;304.0;175.6;0.366138
+PED-202609-0031;2026-09-15;2026-09;Loja física;Zona Sul;Papelaria;Bloco de notas;2;12.5;0.1;6.4;25.0;22.5;12.8;9.7;0.431111
+PED-202609-0040;2026-09-15;2026-09;WhatsApp;Centro;Organização;Pasta catálogo;1;34.9;0.1;17.8;34.9;31.41;17.8;13.61;0.433301
+PED-202609-0065;2026-09-15;2026-09;WhatsApp;Centro;Acessórios;Mouse sem fio;3;69.9;0.05;43.5;209.7;199.21;130.5;68.71;0.344912
+PED-202609-0073;2026-09-15;2026-09;Loja física;Zona Sul;Acessórios;Mouse sem fio;2;69.9;0.1;43.5;139.8;125.82;87.0;38.82;0.308536
+PED-202609-0017;2026-09-16;2026-09;Loja física;Zona Sul;Papelaria;Bloco de notas;4;12.5;0.05;6.4;50.0;47.5;25.6;21.9;0.461053
+PED-202609-0056;2026-09-16;2026-09;Loja física;Centro;Papelaria;Bloco de notas;1;12.5;0.05;6.4;12.5;11.88;6.4;5.48;0.461279
+PED-202609-0068;2026-09-16;2026-09;WhatsApp;Centro;Papelaria;Caderno universitário;1;22.9;0.05;12.1;22.9;21.75;12.1;9.65;0.443678
+PED-202609-0071;2026-09-17;2026-09;Loja física;Centro;Organização;Pasta catálogo;3;34.9;0.05;17.8;104.7;99.47;53.4;46.07;0.463155
+PED-202609-0082;2026-09-17;2026-09;Loja física;Centro;Acessórios;Mouse sem fio;1;69.9;0.05;43.5;69.9;66.41;43.5;22.91;0.344978
+PED-202609-0014;2026-09-18;2026-09;Loja física;Zona Sul;Acessórios;Mouse sem fio;1;69.9;0.1;43.5;69.9;62.91;43.5;19.41;0.308536
+PED-202609-0064;2026-09-18;2026-09;Loja física;Zona Sul;Organização;Pasta catálogo;1;34.9;0;17.8;34.9;34.9;17.8;17.1;0.489971
+PED-202609-0037;2026-09-19;2026-09;Online;Centro;Organização;Suporte de notebook;2;99.9;0;57.5;199.8;199.8;115.0;84.8;0.424424
+PED-202609-0039;2026-09-19;2026-09;Loja física;Zona Sul;Papelaria;Caneta (kit);2;16.9;0.15;8.5;33.8;28.73;17.0;11.73;0.408284
+PED-202609-0046;2026-09-20;2026-09;Loja física;Centro;Acessórios;Cabo USB-C;3;29.9;0;15.4;89.7;89.7;46.2;43.5;0.48495
+PED-202609-0016;2026-09-21;2026-09;Loja física;Zona Norte;Informática;Webcam;1;179.9;0.15;121.0;179.9;152.91;121.0;31.91;0.208685
+PED-202609-0048;2026-09-21;2026-09;WhatsApp;Zona Norte;Acessórios;Headset básico;1;119.9;0.05;76.0;119.9;113.91;76.0;37.91;0.332807
+PED-202609-0003;2026-09-22;2026-09;Loja física;Zona Norte;Papelaria;Caderno universitário;3;22.9;0;12.1;68.7;68.7;36.3;32.4;0.471616
+PED-202609-0021;2026-09-22;2026-09;Loja física;Centro;Papelaria;Caderno universitário;3;22.9;0.05;12.1;68.7;65.27;36.3;28.97;0.443849
+PED-202609-0008;2026-09-23;2026-09;Loja física;Zona Sul;Informática;Hub USB;4;84.9;0;49.0;339.6;339.6;196.0;143.6;0.42285
+PED-202609-0025;2026-09-23;2026-09;Online;Centro;Papelaria;Caderno universitário;3;22.9;0;12.1;68.7;68.7;36.3;32.4;0.471616
+PED-202609-0055;2026-09-23;2026-09;Loja física;Zona Sul;Informática;Hub USB;2;84.9;0;49.0;169.8;169.8;98.0;71.8;0.42285
+PED-202609-0030;2026-09-24;2026-09;Loja física;Zona Norte;Informática;Webcam;3;179.9;0.05;121.0;539.7;512.72;363.0;149.72;0.292011
+PED-202609-0036;2026-09-24;2026-09;WhatsApp;Zona Sul;Papelaria;Caderno universitário;2;22.9;0.05;12.1;45.8;43.51;24.2;19.31;0.443806
+PED-202609-0051;2026-09-24;2026-09;Loja física;Centro;Acessórios;Mouse sem fio;2;69.9;0.15;43.5;139.8;118.83;87.0;31.83;0.267862
+PED-202609-0022;2026-09-26;2026-09;Loja física;Centro;Informática;Webcam;3;179.9;0.05;121.0;539.7;512.72;363.0;149.72;0.292011
+PED-202609-0035;2026-09-26;2026-09;Loja física;Centro;Acessórios;Cabo USB-C;2;29.9;0.05;15.4;59.8;56.81;30.8;26.01;0.457842
+PED-202609-0054;2026-09-26;2026-09;Loja física;Centro;Papelaria;Bloco de notas;2;12.5;0;6.4;25.0;25.0;12.8;12.2;0.488
+PED-202609-0057;2026-09-26;2026-09;Online;Zona Norte;Organização;Organizador de mesa;1;44.9;0;22.5;44.9;44.9;22.5;22.4;0.498886
+PED-202609-0061;2026-09-26;2026-09;Loja física;Centro;Acessórios;Headset básico;1;119.9;0;76.0;119.9;119.9;76.0;43.9;0.366138
+PED-202609-0042;2026-09-27;2026-09;Loja física;Zona Norte;Papelaria;Caneta (kit);3;16.9;0.1;8.5;50.7;45.63;25.5;20.13;0.441157
+PED-202609-0044;2026-09-27;2026-09;WhatsApp;Centro;Informática;Webcam;3;179.9;0.15;121.0;539.7;458.75;363.0;95.75;0.208719
+PED-202609-0006;2026-09-28;2026-09;Loja física;Centro;Organização;Organizador de mesa;3;44.9;0.15;22.5;134.7;114.49;67.5;46.99;0.410429
+PED-202609-0024;2026-09-28;2026-09;Loja física;Centro;Papelaria;Caneta (kit);4;16.9;0.05;8.5;67.6;64.22;34.0;30.22;0.47057
+PED-202609-0033;2026-09-28;2026-09;Loja física;Centro;Organização;Suporte de notebook;2;99.9;0;57.5;199.8;199.8;115.0;84.8;0.424424
+PED-202609-0066;2026-09-28;2026-09;Loja física;Zona Norte;Informática;Teclado;1;89.9;0.1;55.0;89.9;80.91;55.0;25.91;0.320232
+PED-202609-0077;2026-09-28;2026-09;Loja física;Zona Norte;Acessórios;Cabo USB-C;1;29.9;0.05;15.4;29.9;28.4;15.4;13.0;0.457746
+PED-202609-0005;2026-09-29;2026-09;Loja física;Zona Sul;Acessórios;Cabo USB-C;1;29.9;0.1;15.4;29.9;26.91;15.4;11.51;0.427722
+PED-202609-0019;2026-09-29;2026-09;Loja física;Centro;Acessórios;Cabo USB-C;2;29.9;0.05;15.4;59.8;56.81;30.8;26.01;0.457842
+PED-202609-0080;2026-09-30;2026-09;Loja física;Centro;Acessórios;Headset básico;1;119.9;0;76.0;119.9;119.9;76.0;43.9;0.366138
+PED-202610-0009;2026-10-01;2026-10;WhatsApp;Centro;Organização;Suporte de notebook;1;99.9;0.05;57.5;99.9;94.91;57.5;37.41;0.394163
+PED-202610-0035;2026-10-01;2026-10;Online;Centro;Papelaria;Caderno universitário;3;22.9;0;12.1;68.7;68.7;36.3;32.4;0.471616
+PED-202610-0046;2026-10-01;2026-10;Loja física;Centro;Acessórios;Mouse sem fio;1;69.9;0.1;43.5;69.9;62.91;43.5;19.41;0.308536
+PED-202610-0006;2026-10-02;2026-10;WhatsApp;Centro;Informática;Webcam;3;179.9;0;121.0;539.7;539.7;363.0;176.7;0.327404
+PED-202610-0031;2026-10-02;2026-10;Loja física;Centro;Informática;Hub USB;1;84.9;0.15;49.0;84.9;72.17;49.0;23.17;0.321048
+PED-202610-0024;2026-10-03;2026-10;Loja física;Zona Norte;Papelaria;Caderno universitário;2;22.9;0.1;12.1;45.8;41.22;24.2;17.02;0.412906
+PED-202610-0032;2026-10-03;2026-10;Loja física;Centro;Papelaria;Caneta (kit);4;16.9;0.1;8.5;67.6;60.84;34.0;26.84;0.441157
+PED-202610-0067;2026-10-03;2026-10;Loja física;Zona Sul;Papelaria;Caneta (kit);1;16.9;0.05;8.5;16.9;16.05;8.5;7.55;0.470405
+PED-202610-0069;2026-10-03;2026-10;WhatsApp;Zona Norte;Papelaria;Caderno universitário;1;22.9;0.05;12.1;22.9;21.75;12.1;9.65;0.443678
+PED-202610-0013;2026-10-04;2026-10;Loja física;Zona Norte;Acessórios;Mouse sem fio;1;69.9;0.15;43.5;69.9;59.42;43.5;15.92;0.267923
+PED-202610-0055;2026-10-04;2026-10;Loja física;Centro;Papelaria;Bloco de notas;4;12.5;0.15;6.4;50.0;42.5;25.6;16.9;0.397647
+PED-202610-0007;2026-10-05;2026-10;Loja física;Zona Norte;Acessórios;Cabo USB-C;4;29.9;0.1;15.4;119.6;107.64;61.6;46.04;0.427722
+PED-202610-0029;2026-10-05;2026-10;Loja física;Zona Sul;Informática;Teclado;4;89.9;0.05;55.0;359.6;341.62;220.0;121.62;0.35601
+PED-202610-0061;2026-10-05;2026-10;Loja física;Zona Sul;Papelaria;Caneta (kit);3;16.9;0.15;8.5;50.7;43.09;25.5;17.59;0.408215
+PED-202610-0011;2026-10-06;2026-10;Loja física;Zona Norte;Acessórios;Headset básico;3;119.9;0;76.0;359.7;359.7;228.0;131.7;0.366138
+PED-202610-0030;2026-10-06;2026-10;Loja física;Zona Norte;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202610-0049;2026-10-06;2026-10;Loja física;Centro;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202610-0060;2026-10-08;2026-10;WhatsApp;Zona Sul;Papelaria;Caneta (kit);3;16.9;0.15;8.5;50.7;43.09;25.5;17.59;0.408215
+PED-202610-0016;2026-10-09;2026-10;WhatsApp;Zona Sul;Informática;Teclado;2;89.9;0.05;55.0;179.8;170.81;110.0;60.81;0.35601
+PED-202610-0021;2026-10-09;2026-10;Loja física;Zona Norte;Organização;Suporte de notebook;1;99.9;0.05;57.5;99.9;94.91;57.5;37.41;0.394163
+PED-202610-0017;2026-10-11;2026-10;WhatsApp;Zona Norte;Papelaria;Caderno universitário;1;22.9;0.05;12.1;22.9;21.75;12.1;9.65;0.443678
+PED-202610-0037;2026-10-11;2026-10;Loja física;Zona Norte;Organização;Suporte de notebook;1;99.9;0;57.5;99.9;99.9;57.5;42.4;0.424424
+PED-202610-0040;2026-10-11;2026-10;Online;Zona Sul;Papelaria;Caderno universitário;2;22.9;0.1;12.1;45.8;41.22;24.2;17.02;0.412906
+PED-202610-0025;2026-10-12;2026-10;Loja física;Centro;Organização;Pasta catálogo;1;34.9;0;17.8;34.9;34.9;17.8;17.1;0.489971
+PED-202610-0003;2026-10-13;2026-10;WhatsApp;Zona Norte;Papelaria;Bloco de notas;2;12.5;0;6.4;25.0;25.0;12.8;12.2;0.488
+PED-202610-0054;2026-10-13;2026-10;Loja física;Centro;Papelaria;Caneta (kit);1;16.9;0.05;8.5;16.9;16.05;8.5;7.55;0.470405
+PED-202610-0034;2026-10-14;2026-10;Loja física;Zona Sul;Informática;Hub USB;1;84.9;0.05;49.0;84.9;80.66;49.0;31.66;0.392512
+PED-202610-0019;2026-10-15;2026-10;Loja física;Centro;Papelaria;Bloco de notas;2;12.5;0;6.4;25.0;25.0;12.8;12.2;0.488
+PED-202610-0005;2026-10-16;2026-10;WhatsApp;Zona Sul;Papelaria;Bloco de notas;2;12.5;0.05;6.4;25.0;23.75;12.8;10.95;0.461053
+PED-202610-0014;2026-10-16;2026-10;Loja física;Zona Sul;Organização;Organizador de mesa;1;44.9;0.05;22.5;44.9;42.65;22.5;20.15;0.47245
+PED-202610-0020;2026-10-16;2026-10;Loja física;Centro;Informática;Webcam;3;179.9;0.15;121.0;539.7;458.75;363.0;95.75;0.208719
+PED-202610-0008;2026-10-17;2026-10;Loja física;Zona Norte;Acessórios;Headset básico;3;119.9;0.1;76.0;359.7;323.73;228.0;95.73;0.295709
+PED-202610-0038;2026-10-17;2026-10;WhatsApp;Centro;Informática;Webcam;1;179.9;0.15;121.0;179.9;152.91;121.0;31.91;0.208685
+PED-202610-0044;2026-10-17;2026-10;Loja física;Centro;Informática;Hub USB;1;84.9;0;49.0;84.9;84.9;49.0;35.9;0.42285
+PED-202610-0010;2026-10-18;2026-10;Loja física;Zona Sul;Acessórios;Mouse sem fio;3;69.9;0.1;43.5;209.7;188.73;130.5;58.23;0.308536
+PED-202610-0012;2026-10-18;2026-10;Loja física;Zona Sul;Organização;Organizador de mesa;1;44.9;0.05;22.5;44.9;42.65;22.5;20.15;0.47245
+PED-202610-0036;2026-10-18;2026-10;Loja física;Zona Norte;Papelaria;Caneta (kit);3;16.9;0.05;8.5;50.7;48.16;25.5;22.66;0.470515
+PED-202610-0043;2026-10-18;2026-10;Loja física;Zona Sul;Informática;Webcam;1;179.9;0;121.0;179.9;179.9;121.0;58.9;0.327404
+PED-202610-0047;2026-10-18;2026-10;Loja física;Zona Sul;Acessórios;Mouse sem fio;2;69.9;0.05;43.5;139.8;132.81;87.0;45.81;0.344929
+PED-202610-0065;2026-10-18;2026-10;Loja física;Centro;Acessórios;Cabo USB-C;2;29.9;0;15.4;59.8;59.8;30.8;29.0;0.48495
+PED-202610-0058;2026-10-19;2026-10;Online;Zona Sul;Acessórios;Cabo USB-C;2;29.9;0;15.4;59.8;59.8;30.8;29.0;0.48495
+PED-202610-0039;2026-10-20;2026-10;WhatsApp;Centro;Papelaria;Caderno universitário;3;22.9;0;12.1;68.7;68.7;36.3;32.4;0.471616
+PED-202610-0050;2026-10-20;2026-10;Loja física;Zona Norte;Acessórios;Mouse sem fio;1;69.9;0.05;43.5;69.9;66.41;43.5;22.91;0.344978
+PED-202610-0059;2026-10-20;2026-10;Loja física;Zona Norte;Informática;Webcam;1;179.9;0.05;121.0;179.9;170.91;121.0;49.91;0.292025
+PED-202610-0068;2026-10-20;2026-10;WhatsApp;Centro;Papelaria;Caderno universitário;2;22.9;0.05;12.1;45.8;43.51;24.2;19.31;0.443806
+PED-202610-0033;2026-10-21;2026-10;Online;Centro;Papelaria;Bloco de notas;1;12.5;0.1;6.4;12.5;11.25;6.4;4.85;0.431111
+PED-202610-0048;2026-10-21;2026-10;Online;Centro;Organização;Suporte de notebook;2;99.9;0.15;57.5;199.8;169.83;115.0;54.83;0.322852
+PED-202610-0053;2026-10-21;2026-10;Loja física;Zona Norte;Acessórios;Headset básico;1;119.9;0;76.0;119.9;119.9;76.0;43.9;0.366138
+PED-202610-0027;2026-10-22;2026-10;Loja física;Zona Norte;Acessórios;Headset básico;1;119.9;0.1;76.0;119.9;107.91;76.0;31.91;0.295709
+PED-202610-0001;2026-10-23;2026-10;Online;Centro;Acessórios;Headset básico;3;119.9;0;76.0;359.7;359.7;228.0;131.7;0.366138
+PED-202610-0057;2026-10-23;2026-10;Loja física;Centro;Informática;Hub USB;1;84.9;0.05;49.0;84.9;80.66;49.0;31.66;0.392512
+PED-202610-0071;2026-10-23;2026-10;Loja física;Centro;Papelaria;Caneta (kit);1;16.9;0;8.5;16.9;16.9;8.5;8.4;0.497041
+PED-202610-0026;2026-10-24;2026-10;Online;Zona Norte;Acessórios;Cabo USB-C;1;29.9;0.1;15.4;29.9;26.91;15.4;11.51;0.427722
+PED-202610-0042;2026-10-24;2026-10;Loja física;Zona Norte;Organização;Organizador de mesa;1;44.9;0;22.5;44.9;44.9;22.5;22.4;0.498886
+PED-202610-0015;2026-10-25;2026-10;Loja física;Zona Sul;Papelaria;Bloco de notas;4;12.5;0;6.4;50.0;50.0;25.6;24.4;0.488
+PED-202610-0022;2026-10-25;2026-10;Loja física;Centro;Informática;Webcam;1;179.9;0.05;121.0;179.9;170.91;121.0;49.91;0.292025
+PED-202610-0063;2026-10-25;2026-10;Loja física;Centro;Informática;Hub USB;1;84.9;0.1;49.0;84.9;76.41;49.0;27.41;0.358723
+PED-202610-0002;2026-10-26;2026-10;Loja física;Centro;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202610-0052;2026-10-26;2026-10;Online;Centro;Informática;Webcam;2;179.9;0;121.0;359.8;359.8;242.0;117.8;0.327404
+PED-202610-0004;2026-10-27;2026-10;Online;Centro;Acessórios;Cabo USB-C;1;29.9;0;15.4;29.9;29.9;15.4;14.5;0.48495
+PED-202610-0023;2026-10-27;2026-10;Loja física;Zona Sul;Papelaria;Caderno universitário;2;22.9;0.05;12.1;45.8;43.51;24.2;19.31;0.443806
+PED-202610-0028;2026-10-27;2026-10;Online;Centro;Papelaria;Caneta (kit);1;16.9;0;8.5;16.9;16.9;8.5;8.4;0.497041
+PED-202610-0041;2026-10-28;2026-10;WhatsApp;Zona Norte;Informática;Hub USB;1;84.9;0.1;49.0;84.9;76.41;49.0;27.41;0.358723
+PED-202610-0045;2026-10-28;2026-10;Loja física;Zona Sul;Acessórios;Cabo USB-C;1;29.9;0.05;15.4;29.9;28.4;15.4;13.0;0.457746
+PED-202610-0056;2026-10-28;2026-10;Loja física;Centro;Acessórios;Headset básico;2;119.9;0.05;76.0;239.8;227.81;152.0;75.81;0.332777
+PED-202610-0062;2026-10-28;2026-10;WhatsApp;Centro;Papelaria;Caderno universitário;2;22.9;0.05;12.1;45.8;43.51;24.2;19.31;0.443806
+PED-202610-0066;2026-10-28;2026-10;Online;Centro;Informática;Webcam;2;179.9;0.05;121.0;359.8;341.81;242.0;99.81;0.292004
+PED-202610-0018;2026-10-29;2026-10;Online;Centro;Acessórios;Headset básico;2;119.9;0.05;76.0;239.8;227.81;152.0;75.81;0.332777
+PED-202610-0070;2026-10-29;2026-10;Online;Zona Sul;Informática;Hub USB;2;84.9;0.1;49.0;169.8;152.82;98.0;54.82;0.358723
+PED-202610-0051;2026-10-30;2026-10;WhatsApp;Centro;Organização;Organizador de mesa;2;44.9;0.05;22.5;89.8;85.31;45.0;40.31;0.472512
+PED-202610-0064;2026-10-30;2026-10;WhatsApp;Centro;Papelaria;Caneta (kit);1;16.9;0.05;8.5;16.9;16.05;8.5;7.55;0.470405

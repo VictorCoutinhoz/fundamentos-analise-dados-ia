@@ -1,0 +1,11 @@
+tmp/
+node_modules/
+__pycache__/
+*.pyc
+apresentacao_arquivo_unico.html
+.DS_Store
+Thumbs.db
+.env
+.env.*
+/docs/
+/PROMPT_INICIAL_PARA_CODEX.md
